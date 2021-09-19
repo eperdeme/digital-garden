@@ -7,6 +7,7 @@ nav:
   - Introduction: index.md
   - Ants: 
     - ants/colony.md
+    - ants/feeding.md
     - Lasius Niger: ants/lasius_niger.md
     - Camponotus Parius: ants/camponotus_parius.md
     - Camponotus Auriventris: ants/camponotus_auriventris.md
