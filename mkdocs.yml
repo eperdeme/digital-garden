@@ -1,0 +1,89 @@
+---
+site_name: Flynns 2nd Brain
+site_description: Big of everything.
+site_author: nflynn
+site_url: https://eperdeme.github.io/digital-garden/
+nav:
+  - Introduction: index.md
+  - Ants: 
+    - ants/colony.md
+    - Lasius Niger: ants/lasius_niger.md
+    - Camponotus Parius: ants/camponotus_parius.md
+    - Camponotus Auriventris: ants/camponotus_auriventris.md
+    - Messor Orientalis: ants/messor_orientalis.md
+  
+theme:
+  name: material
+  custom_dir: theme
+ # logo: img/logo.bmp
+  features:
+    - navigation.instant
+    - navigation.top
+  palette:
+    # Light mode
+    - media: '(prefers-color-scheme: light)'
+      scheme: default
+      primary: blue grey
+      accent: light blue
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+
+    # Dark mode
+    - media: '(prefers-color-scheme: dark)'
+      scheme: slate
+      primary: blue grey
+      accent: light blue
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+extra_css:
+  - stylesheets/extra.css
+  - stylesheets/links.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/eperdeme
+
+
+repo_name: eperdeme/digital-garden
+repo_url: https://github.com/eperdeme/digital-garden
+
+plugins:
+  - search
+#  - autolinks
+  - git-revision-date-localized:
+      type: timeago
+  - minify:
+      minify_html: true
+  - section-index
+#  - mkdocs-newsletter
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - meta
+  - def_list
+  - toc:
+      permalink: ⚑
+      baselevel: 2
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: '!!python/name:pymdownx.emoji.to_svg'
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
