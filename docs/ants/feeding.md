@@ -19,5 +19,11 @@ The "norm" is to use a sugar formula such as "byformica sunburst ant nectar", th
 
 # Protein
 
+All ants except Messor require protein and Messor can be given the option apparently can be hit and miss.
+
+There are several options to provide protein from live insects to pastes.
+
+[BestAntsUK protein Jelly](food/best_ants_protein_jelly.md)
+
 
 # Seeds
