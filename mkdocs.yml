@@ -8,10 +8,12 @@ nav:
   - Ants: 
     - ants/colony.md
     - ants/feeding.md
-    - Lasius Niger: ants/lasius_niger.md
-    - Camponotus Parius: ants/camponotus_parius.md
-    - Camponotus Auriventris: ants/camponotus_auriventris.md
-    - Messor Orientalis: ants/messor_orientalis.md
+    - ants/suppliers.md
+    - Colonies: 
+      - Lasius Niger: ants/lasius_niger.md
+      - Camponotus Parius: ants/camponotus_parius.md
+      - Camponotus Auriventris: ants/camponotus_auriventris.md
+      - Messor Orientalis: ants/messor_orientalis.md
   
 theme:
   name: material
