@@ -3,7 +3,7 @@ title: Ant Colony
 description: My personal ant colonies.
 ---
 
-# [Lasius Niger](lasius_niger.md)
+# [Lasius Niger](careguide/lasius_niger.md)
 
 ## Colony count
 
@@ -13,7 +13,7 @@ description: My personal ant colonies.
 | 15/09/21  | 0       |
 
 
-# [Camponotus Parius](camponotus_parius.md)
+# [Camponotus Parius](careguide/camponotus_parius.md)
 
 ## Colony count
 
@@ -23,7 +23,7 @@ description: My personal ant colonies.
 | 15/09/21  | ?       |
 
 
-# [Camponotus Auriventris](camponotus_auriventris.md)
+# [Camponotus Auriventris](careguide/camponotus_auriventris.md)
 
 ## Colony count
 
@@ -33,7 +33,7 @@ description: My personal ant colonies.
 | 15/09/21  | 3       |
 
 
-# [Messor Orientalis](messor_orientalis.md)
+# [Messor Orientalis](careguide/messor_orientalis.md)
 
 ## Colony count
 
