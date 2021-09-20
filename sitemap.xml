@@ -6,16 +6,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://eperdeme.github.io/digital-garden/ants/camponotus_auriventris/</loc>
-         <lastmod>2021-09-20</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://eperdeme.github.io/digital-garden/ants/camponotus_parius/</loc>
-         <lastmod>2021-09-20</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://eperdeme.github.io/digital-garden/ants/colony/</loc>
          <lastmod>2021-09-20</lastmod>
          <changefreq>daily</changefreq>
@@ -26,17 +16,27 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://eperdeme.github.io/digital-garden/ants/lasius_niger/</loc>
-         <lastmod>2021-09-20</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://eperdeme.github.io/digital-garden/ants/messor_orientalis/</loc>
-         <lastmod>2021-09-20</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://eperdeme.github.io/digital-garden/ants/suppliers/</loc>
+         <lastmod>2021-09-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://eperdeme.github.io/digital-garden/ants/careguide/camponotus_auriventris/</loc>
+         <lastmod>2021-09-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://eperdeme.github.io/digital-garden/ants/careguide/camponotus_parius/</loc>
+         <lastmod>2021-09-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://eperdeme.github.io/digital-garden/ants/careguide/lasius_niger/</loc>
+         <lastmod>2021-09-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://eperdeme.github.io/digital-garden/ants/careguide/messor_orientalis/</loc>
          <lastmod>2021-09-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
