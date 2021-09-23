@@ -12,7 +12,7 @@ nav:
     - Colonies: 
       - Lasius Niger: ants/careguide/lasius_niger.md
       - Camponotus Parius: ants/careguide/camponotus_parius.md
-      - Camponotus Auriventris: ants/ccareguide/amponotus_auriventris.md
+      - Camponotus Auriventris: ants/ccareguide/camponotus_auriventris.md
       - Messor Orientalis: ants/careguide/messor_orientalis.md
   
 theme:
