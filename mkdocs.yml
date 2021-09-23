@@ -7,14 +7,14 @@ nav:
   - Introduction: index.md
   - Ants: 
     - ants/colony.md
-    - ants/feeding.md
+  #  - ants/feeding.md
     - ants/suppliers.md
     - Colonies: 
       - Lasius Niger: ants/careguide/lasius_niger.md
       - Camponotus Parius: ants/careguide/camponotus_parius.md
       - Camponotus Auriventris: ants/careguide/camponotus_auriventris.md
       - Messor Orientalis: ants/careguide/messor_orientalis.md
-  - Feeding: ants/feeding.md
+    - Feeding: ants/feeding.md
       - Wax Worms: ants/feeding/waxworms.md
       - Protein Jelly: ants/feeding/best_ants_protein_jelly.md
   
