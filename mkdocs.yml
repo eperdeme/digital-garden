@@ -93,3 +93,8 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
+
+extra:
+  analytics:
+    provider: google
+    property: G-6BLZKM0HS6
