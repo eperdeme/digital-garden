@@ -17,6 +17,8 @@ nav:
     - Feeding:
       - Wax Worms: ants/feeding/waxworms.md
       - Protein Jelly: ants/feeding/best_ants_protein_jelly.md
+    - Brewing:
+      - Pinter: brewing/pinter.md
   
 theme:
   name: material
