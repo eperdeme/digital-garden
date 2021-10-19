@@ -9,7 +9,8 @@ nav:
     - ants/colony.md
     - Feeding: 
       - Feeding: ants/feeding.md
-      - Best Ants Jelly: ants/food/best_ants_protein_jelly.md
+      - Wax Worms: ants/feeding/waxworms.md
+      - Protein Jelly: ants/feeding/best_ants_protein_jelly.md
     - ants/suppliers.md
     - Colonies: 
       - Lasius Niger: ants/careguide/lasius_niger.md
@@ -18,6 +19,9 @@ nav:
       - Messor Orientalis: ants/careguide/messor_orientalis.md
   - Shopping:
     - BlackFriday: shopping/blackfriday.md
+  - Homebrew:
+    - Pinter: brewing/pinter.md
+  
 theme:
   name: material
   custom_dir: theme
@@ -93,3 +97,8 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
+
+extra:
+  analytics:
+    provider: google
+    property: G-6BLZKM0HS6
