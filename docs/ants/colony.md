@@ -11,6 +11,7 @@ description: My personal ant colonies.
 | ----------| ------- |
 | 01/08/21  | 0       |
 | 15/09/21  | 0       |
+| 20/09/21  | dead    |
 
 
 # [Camponotus Parius](careguide/camponotus_parius.md)
@@ -29,9 +30,9 @@ description: My personal ant colonies.
 
 | Date      | Workers |
 | ----------| ------- |
-| 01/08/21  | 6 (est)|
+| 01/08/21  | 6 (est) |
 | 15/09/21  | 3       |
-
+| 14/10/21  | 3       |
 
 # [Messor Orientalis](careguide/messor_orientalis.md)
 

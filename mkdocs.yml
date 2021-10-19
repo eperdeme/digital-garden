@@ -7,14 +7,17 @@ nav:
   - Introduction: index.md
   - Ants: 
     - ants/colony.md
-    - ants/feeding.md
+    - Feeding: 
+      - Feeding: ants/feeding.md
+      - Best Ants Jelly: ants/food/best_ants_protein_jelly.md
     - ants/suppliers.md
     - Colonies: 
       - Lasius Niger: ants/careguide/lasius_niger.md
       - Camponotus Parius: ants/careguide/camponotus_parius.md
-      - Camponotus Auriventris: ants/ccareguide/amponotus_auriventris.md
+      - Camponotus Auriventris: ants/careguide/camponotus_auriventris.md
       - Messor Orientalis: ants/careguide/messor_orientalis.md
-  
+  - Shopping:
+    - BlackFriday: shopping/blackfriday.md
 theme:
   name: material
   custom_dir: theme
