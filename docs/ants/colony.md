@@ -33,6 +33,7 @@ description: My personal ant colonies.
 | 01/08/21  | 6 (est) |
 | 15/09/21  | 3       |
 | 14/10/21  | 3       |
+| 02/11/21  | 3       |
 
 # [Messor Orientalis](careguide/messor_orientalis.md)
 

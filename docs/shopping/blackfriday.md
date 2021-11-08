@@ -2,8 +2,9 @@
 
 | Item      | Price | Description |
 | ----------| ------- | | 
-| Eufy Smart Scale P1  | 30       |  Needs to be the P1 model as this seems latest at time of writing. Looks to be best to intergrate with Google Fit. |
 | Mr Potato Head | X | Nursery says Sophie likes it | 
+| Peppa Pig Wooden Playhouse | 79.99-89.99 | Seems to be a V1 and V2 figures obv diff. BATTERIES!! |
+| Totoro | 18 | |
 | Facebook Portal TV | 79-150 | Might be worth it |
 
 

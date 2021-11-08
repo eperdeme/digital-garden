@@ -23,7 +23,7 @@ All ants except Messor require protein and Messor can be given the option appare
 
 There are several options to provide protein from live insects to pastes.
 
-[BestAntsUK protein Jelly](food/best_ants_protein_jelly.md)
+[BestAntsUK protein Jelly](feeding/best_ants_protein_jelly.md)
 
 
 # Seeds
