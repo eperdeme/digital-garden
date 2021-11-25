@@ -3,6 +3,7 @@ site_name: Flynns 2nd Brain
 site_description: Big of everything.
 site_author: nflynn
 site_url: https://www.eper.net
+edit_uri: blob/main/docs/
 nav:
   - Introduction: index.md
   - Ants: 
