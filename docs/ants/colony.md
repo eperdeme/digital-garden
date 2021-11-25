@@ -20,8 +20,9 @@ description: My personal ant colonies.
 
 | Date      | Workers |
 | ----------| ------- |
-| 31/08/21  | 5 (est)|
-| 15/09/21  | ?       |
+| 31/08/21  | 5 (est) |
+| 15/09/21  | 8       |
+| 08/11/21  | 8       |
 
 
 # [Camponotus Auriventris](careguide/camponotus_auriventris.md)
@@ -34,6 +35,8 @@ description: My personal ant colonies.
 | 15/09/21  | 3       |
 | 14/10/21  | 3       |
 | 02/11/21  | 3       |
+| 08/11/21  | 3       |
+| 25/11/21  | 2       |
 
 # [Messor Orientalis](careguide/messor_orientalis.md)
 
@@ -42,4 +45,4 @@ description: My personal ant colonies.
 | Date      | Workers |
 | ----------| ------- |
 | 01/11/20  | 25 (est)|
-| 15/09/21  | ?       |
+| 15/09/21  | 0       |

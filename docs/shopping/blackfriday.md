@@ -3,8 +3,9 @@
 | Item      | Price | Description |
 | ----------| ------- | | 
 | Mr Potato Head | X | Nursery says Sophie likes it | 
-| Peppa Pig Wooden Playhouse | 79.99-89.99 | Seems to be a V1 and V2 figures obv diff. BATTERIES!! |
 | Totoro | 18 | |
 | Facebook Portal TV | 79-150 | Might be worth it |
-
+| HighTech Ants | x | 24h only on Friday |
+| vtech camera x2 | x | |
+| messor barb | 30 | https://www.antsdavey.co.uk/product-page/messor-barbarus |
 
