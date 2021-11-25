@@ -54,15 +54,15 @@ docs:
 	@echo ""
 
 .PHONY: bump
-bump: pull-master bump-version clean
+bump: pull-main bump-version clean
 
-.PHONY: pull-master
-pull-master:
+.PHONY: pull-main
+pull-main:
 	@echo "------------------------"
 	@echo "- Updating repository  -"
 	@echo "------------------------"
 
-	git checkout master
+	git checkout main
 	git pull
 
 	@echo ""
