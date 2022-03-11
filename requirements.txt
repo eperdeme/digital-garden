@@ -98,14 +98,18 @@ mkdocs-autolinks-plugin @ git+git://github.com/lyz-code/mkdocs-autolinks-plugin.
     #   -r requirements.in
     #   mkdocs-newsletter
 mkdocs-git-revision-date-localized-plugin==1.0.0
-    # via -r requirements.in
+    # via
+    #   -r requirements.in
+    #   mkdocs-newsletter
 mkdocs-material==8.2.5
-    # via -r requirements.in
+    # via
+    #   -r requirements.in
+    #   mkdocs-newsletter
 mkdocs-material-extensions==1.0.3
     # via mkdocs-material
 mkdocs-minify-plugin==0.5.0
     # via -r requirements.in
-mkdocs-newsletter==0.3.1
+mkdocs-newsletter==1.0.1
     # via -r requirements.in
 mkdocs-section-index==0.3.3
     # via
@@ -137,9 +141,7 @@ pymdown-extensions==9.2
 pyparsing==3.0.7
     # via packaging
 python-dateutil==2.8.2
-    # via
-    #   ghp-import
-    #   mkdocs-newsletter
+    # via ghp-import
 python-gitlab==2.10.1
     # via python-semantic-release
 python-semantic-release==7.26.0
