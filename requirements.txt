@@ -93,7 +93,7 @@ mkdocs==1.2.3
     #   mkdocs-minify-plugin
     #   mkdocs-newsletter
     #   mkdocs-section-index
-mkdocs-autolinks-plugin @ git+git://github.com/lyz-code/mkdocs-autolinks-plugin.git
+mkdocs-autolinks-plugin==v_050
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
