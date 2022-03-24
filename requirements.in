@@ -6,5 +6,5 @@ mkdocs-minify-plugin
 mkdocs-material
 mkdocs-section-index
 pymdown-extensions
-git+git://github.com/lyz-code/mkdocs-autolinks-plugin.git
+mkdocs-autolinks-plugin
 mkdocs-newsletter
