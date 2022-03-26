@@ -201,7 +201,7 @@ urllib3==1.26.9
     # via
     #   requests
     #   twine
-watchdog==2.1.6
+watchdog==2.1.7
     # via mkdocs
 webencodings==0.5.1
     # via bleach
@@ -211,5 +211,5 @@ zipp==3.7.0
     # via importlib-metadata
 
 # The following packages are considered to be unsafe in a requirements file:
-setuptools==61.0.0
+setuptools==61.1.0
     # via setuptools-scm
