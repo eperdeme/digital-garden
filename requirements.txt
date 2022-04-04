@@ -64,7 +64,7 @@ importlib-metadata==4.11.3
     #   twine
 invoke==1.7.0
     # via python-semantic-release
-jeepney==0.7.1
+jeepney==0.8.0
     # via
     #   keyring
     #   secretstorage
@@ -145,7 +145,7 @@ python-dateutil==2.8.2
     # via ghp-import
 python-gitlab==3.3.0
     # via python-semantic-release
-python-semantic-release==7.27.0
+python-semantic-release==7.27.1
     # via mkdocs-newsletter
 pytz==2022.1
     # via babel
@@ -186,9 +186,9 @@ soupsieve==2.3.1
     # via beautifulsoup4
 tomli==2.0.1
     # via setuptools-scm
-tomlkit==0.7.0
+tomlkit==0.10.1
     # via python-semantic-release
-tqdm==4.63.1
+tqdm==4.64.0
     # via twine
 twine==3.8.0
     # via python-semantic-release
@@ -207,7 +207,7 @@ webencodings==0.5.1
     # via bleach
 wheel==0.37.1
     # via python-semantic-release
-zipp==3.7.0
+zipp==3.8.0
     # via importlib-metadata
 
 # The following packages are considered to be unsafe in a requirements file:
