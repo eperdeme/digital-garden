@@ -191,7 +191,7 @@ tqdm==4.64.0
     # via twine
 twine==3.8.0
     # via python-semantic-release
-typing-extensions==4.1.1
+typing-extensions==4.2.0
     # via
     #   gitpython
     #   importlib-metadata
