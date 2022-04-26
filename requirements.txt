@@ -57,9 +57,7 @@ idna==3.3
     # via requests
 importlib-metadata==4.11.3
     # via
-    #   click
     #   keyring
-    #   markdown
     #   mkdocs
     #   twine
 invoke==1.7.0
@@ -102,7 +100,7 @@ mkdocs-git-revision-date-localized-plugin==1.0.1
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
-mkdocs-material==8.2.10
+mkdocs-material==8.2.11
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
@@ -130,11 +128,11 @@ pycparser==2.21
     # via cffi
 pydantic==1.9.0
     # via mkdocs-newsletter
-pygments==2.12.0
+pygments==2.11.2
     # via
     #   mkdocs-material
     #   readme-renderer
-pymdown-extensions==9.4
+pymdown-extensions==9.3
     # via
     #   -r requirements.in
     #   mkdocs-material
@@ -192,10 +190,7 @@ tqdm==4.64.0
 twine==3.8.0
     # via python-semantic-release
 typing-extensions==4.2.0
-    # via
-    #   gitpython
-    #   importlib-metadata
-    #   pydantic
+    # via pydantic
 urllib3==1.26.9
     # via
     #   requests
