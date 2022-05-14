@@ -30,7 +30,7 @@ cryptography==37.0.2
     # via secretstorage
 csscompressor==0.9.5
     # via mkdocs-minify-plugin
-deepdiff==5.8.0
+deepdiff==5.8.1
     # via mkdocs-newsletter
 docutils==0.18.1
     # via readme-renderer
@@ -62,7 +62,7 @@ importlib-metadata==4.11.3
     #   markdown
     #   mkdocs
     #   twine
-invoke==1.7.0
+invoke==1.7.1
     # via python-semantic-release
 jeepney==0.8.0
     # via
