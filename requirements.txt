@@ -200,7 +200,7 @@ urllib3==1.26.9
     # via
     #   requests
     #   twine
-watchdog==2.1.8
+watchdog==2.1.9
     # via mkdocs
 webencodings==0.5.1
     # via bleach
