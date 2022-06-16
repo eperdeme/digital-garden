@@ -4,13 +4,13 @@
 #
 #    pip-compile --allow-unsafe requirements.in
 #
-babel==2.10.2
+babel==2.10.3
     # via mkdocs-git-revision-date-localized-plugin
 beautifulsoup4==4.11.1
     # via mkdocs-newsletter
 bleach==5.0.0
     # via readme-renderer
-certifi==2022.5.18.1
+certifi==2022.6.15
     # via requests
 cffi==1.15.0
     # via cryptography
