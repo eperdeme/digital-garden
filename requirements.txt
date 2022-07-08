@@ -198,7 +198,7 @@ typing-extensions==4.3.0
     #   importlib-metadata
     #   pydantic
     #   setuptools-scm
-urllib3==1.26.9
+urllib3==1.26.10
     # via
     #   requests
     #   twine
