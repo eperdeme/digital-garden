@@ -128,7 +128,7 @@ proselint==0.13.0
     # via -r requirements.in
 pycparser==2.21
     # via cffi
-pydantic==1.9.1
+pydantic==1.9.2
     # via mkdocs-newsletter
 pygments==2.12.0
     # via
@@ -146,7 +146,7 @@ python-gitlab==3.8.1
     # via python-semantic-release
 python-semantic-release==7.31.2
     # via mkdocs-newsletter
-pytz==2022.1
+pytz==2022.2
     # via babel
 pyyaml==6.0
     # via
