@@ -144,7 +144,7 @@ python-dateutil==2.8.2
     # via ghp-import
 python-gitlab==3.8.1
     # via python-semantic-release
-python-semantic-release==7.31.2
+python-semantic-release==7.31.3
     # via mkdocs-newsletter
 pytz==2022.2.1
     # via babel
@@ -192,7 +192,7 @@ typing-extensions==4.3.0
     #   gitpython
     #   importlib-metadata
     #   pydantic
-urllib3==1.26.11
+urllib3==1.26.12
     # via
     #   requests
     #   twine
