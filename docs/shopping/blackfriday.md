@@ -4,8 +4,8 @@
 
 | Item      | Price | Description |
 | ----------| ------- | |
-| 10283: NASA Space Shuttle Discovery
- | £169.99 | https://brickset.com/sets/10283-1/NASA-Space-Shuttle-Discovery |
+| 10283: NASA Space Shuttle Discovery | £169.99 | https://brickset.com/sets/10283-1/NASA-Space-Shuttle-Discovery |
+| https://www.lego.com/en-gb/product/motorised-lighthouse-21335 | 259.99 | Looks fun |
 
 
 ## 2021
