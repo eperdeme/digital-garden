@@ -6,14 +6,14 @@ site_url: https://www.eper.net
 edit_uri: blob/main/docs/
 nav:
   - Introduction: index.md
-  - Ants: 
+  - Ants:
     - ants/colony.md
-    - Feeding: 
+    - Feeding:
       - Feeding: ants/feeding.md
       - Wax Worms: ants/feeding/waxworms.md
       - Protein Jelly: ants/feeding/best_ants_protein_jelly.md
     - ants/suppliers.md
-    - Colonies: 
+    - Colonies:
       - Lasius Niger: ants/careguide/lasius_niger.md
       - Camponotus Parius: ants/careguide/camponotus_parius.md
       - Camponotus Auriventris: ants/careguide/camponotus_auriventris.md
@@ -22,7 +22,7 @@ nav:
     - BlackFriday: shopping/blackfriday.md
   - Homebrew:
     - Pinter: brewing/pinter.md
-  
+
 theme:
   name: material
   custom_dir: theme
@@ -52,12 +52,6 @@ theme:
 extra_css:
   - stylesheets/extra.css
   - stylesheets/links.css
-
-extra:
-  social:
-    - icon: fontawesome/brands/github-alt
-      link: https://github.com/eperdeme
-
 
 repo_name: eperdeme/digital-garden
 repo_url: https://github.com/eperdeme/digital-garden
@@ -103,3 +97,6 @@ extra:
   analytics:
     provider: google
     property: G-6BLZKM0HS6
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/eperdeme

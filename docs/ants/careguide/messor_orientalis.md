@@ -1,4 +1,4 @@
-## Environmental 
+## Environmental
 
 | Area      | Temperature °C | Humidity % |
 | ----------| ------- | --- |
@@ -15,4 +15,3 @@ Sugars + Seeds + Insects
 
 
 ## Notes
-

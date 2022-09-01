@@ -57,5 +57,5 @@ Leptothorax acervorum
 Messor aciculatus
 - No hibernation but rather small
 
-Messor minor hesperius 
+Messor minor hesperius
 - no hibernation (ish)

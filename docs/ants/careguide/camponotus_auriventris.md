@@ -1,4 +1,4 @@
-## Environmental 
+## Environmental
 
 | Area      | Temperature °C | Humidity % |
 | ----------| ------- | --- |
