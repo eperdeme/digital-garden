@@ -132,7 +132,7 @@ proselint==0.13.0
     # via -r requirements.in
 pycparser==2.21
     # via cffi
-pydantic==1.10.1
+pydantic==1.10.2
     # via mkdocs-newsletter
 pygments==2.13.0
     # via
