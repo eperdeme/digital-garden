@@ -10,7 +10,7 @@ beautifulsoup4==4.11.1
     # via mkdocs-newsletter
 bleach==5.0.1
     # via readme-renderer
-certifi==2022.6.15
+certifi==2022.6.15.1
     # via requests
 cffi==1.15.1
     # via cryptography
