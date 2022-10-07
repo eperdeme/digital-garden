@@ -46,7 +46,7 @@ gitdb==4.0.9
     #   gitpython
 gitdb2==4.0.2
     # via -r requirements.in
-gitpython==3.1.27
+gitpython==3.1.28
     # via
     #   mkdocs-git-revision-date-localized-plugin
     #   mkdocs-newsletter
@@ -148,7 +148,7 @@ python-dateutil==2.8.2
     # via ghp-import
 python-gitlab==3.10.0
     # via python-semantic-release
-python-semantic-release==7.32.0
+python-semantic-release==7.32.1
     # via mkdocs-newsletter
 pytz==2022.4
     # via babel
@@ -167,7 +167,7 @@ requests==2.28.1
     #   python-semantic-release
     #   requests-toolbelt
     #   twine
-requests-toolbelt==0.9.1
+requests-toolbelt==0.10.0
     # via
     #   python-gitlab
     #   twine
@@ -192,7 +192,7 @@ tqdm==4.64.1
     # via twine
 twine==3.8.0
     # via python-semantic-release
-typing-extensions==4.3.0
+typing-extensions==4.4.0
     # via
     #   gitpython
     #   importlib-metadata
