@@ -5,8 +5,11 @@
 | Item      | Price | Description |
 | ----------| ------- | |
 | 10283: NASA Space Shuttle Discovery | £169.99 | https://brickset.com/sets/10283-1/NASA-Space-Shuttle-Discovery |
-| https://www.lego.com/en-gb/product/motorised-lighthouse-21335 | 259.99 | Looks fun |
-
+| 21335: Lego Motorised Lighthouse | 259.99 | https://www.lego.com/en-gb/product/motorised-lighthouse-21335 |
+| 10275: Elf Club House | £79.99 | https://www.lego.com/en-gb/product/elf-club-house-10275 |
+| 75331: The razor crest | £519.99 | Maybe. https://www.lego.com/en-gb/product/the-razor-crest-75331 |
+| Water flosser | x | |
+| Google Wifi Pro x3 | £379.99 | https://store.google.com/product/nest_wifi_pro?hl=en-GB |
 
 ## 2021
 
