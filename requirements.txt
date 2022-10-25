@@ -56,12 +56,7 @@ htmlmin==0.1.12
 idna==3.4
     # via requests
 importlib-metadata==5.0.0
-    # via
-    #   click
-    #   keyring
-    #   markdown
-    #   mkdocs
-    #   twine
+    # via twine
 invoke==1.7.3
     # via python-semantic-release
 jaraco-classes==3.2.3
@@ -110,7 +105,7 @@ mkdocs-material==8.5.7
     #   mkdocs-newsletter
 mkdocs-material-extensions==1.1
     # via mkdocs-material
-mkdocs-minify-plugin==0.6.0
+mkdocs-minify-plugin==0.6.1
     # via -r requirements.in
 mkdocs-newsletter==1.0.1
     # via -r requirements.in
@@ -193,11 +188,7 @@ tqdm==4.64.1
 twine==3.8.0
     # via python-semantic-release
 typing-extensions==4.4.0
-    # via
-    #   gitpython
-    #   importlib-metadata
-    #   mkdocs
-    #   pydantic
+    # via pydantic
 urllib3==1.26.12
     # via
     #   requests
