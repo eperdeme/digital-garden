@@ -76,7 +76,7 @@ jinja2==3.1.2
     #   mkdocs-material
 jsmin==3.0.1
     # via mkdocs-minify-plugin
-keyring==23.9.3
+keyring==23.10.0
     # via twine
 markdown==3.3.7
     # via
@@ -206,7 +206,7 @@ watchdog==2.1.9
     # via mkdocs
 webencodings==0.5.1
     # via bleach
-wheel==0.37.1
+wheel==0.38.1
     # via python-semantic-release
 zipp==3.10.0
     # via importlib-metadata
