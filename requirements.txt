@@ -201,5 +201,5 @@ webencodings==0.5.1
     # via bleach
 wheel==0.38.4
     # via python-semantic-release
-zipp==3.10.0
+zipp==3.11.0
     # via importlib-metadata
