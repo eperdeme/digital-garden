@@ -103,7 +103,7 @@ mkdocs-git-revision-date-localized-plugin==1.1.0
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
-mkdocs-material==9.0.0
+mkdocs-material==9.0.1
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
@@ -125,9 +125,7 @@ packaging==22.0
     # via
     #   mkdocs
     #   python-semantic-release
-pipdeptree==2.3.3
-    # via mkdocs-material
-pkginfo==1.9.2
+pkginfo==1.9.3
     # via twine
 proselint==0.13.0
     # via -r requirements.in
