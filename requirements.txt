@@ -127,7 +127,7 @@ packaging==22.0
     # via
     #   mkdocs
     #   python-semantic-release
-pkginfo==1.9.4
+pkginfo==1.9.5
     # via twine
 proselint==0.13.0
     # via -r requirements.in
