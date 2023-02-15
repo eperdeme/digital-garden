@@ -185,7 +185,7 @@ six==1.16.0
     #   python-dateutil
 smmap==5.0.0
     # via gitdb
-soupsieve==2.3.2.post1
+soupsieve==2.4
     # via beautifulsoup4
 tomlkit==0.11.6
     # via python-semantic-release
@@ -193,7 +193,7 @@ tqdm==4.64.1
     # via twine
 twine==3.8.0
     # via python-semantic-release
-typing-extensions==4.4.0
+typing-extensions==4.5.0
     # via pydantic
 urllib3==1.26.14
     # via
