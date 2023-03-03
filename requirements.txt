@@ -28,7 +28,7 @@ colorama==0.4.6
     # via
     #   mkdocs-material
     #   twine
-cryptography==39.0.1
+cryptography==39.0.2
     # via secretstorage
 csscompressor==0.9.5
     # via mkdocs-minify-plugin
@@ -99,11 +99,11 @@ mkdocs-autolinks-plugin==0.7.0
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
-mkdocs-git-revision-date-localized-plugin==1.1.0
+mkdocs-git-revision-date-localized-plugin==1.2.0
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
-mkdocs-material==9.0.15
+mkdocs-material==9.1.0
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
@@ -149,6 +149,8 @@ python-gitlab==3.13.0
     # via python-semantic-release
 python-semantic-release==7.33.2
     # via mkdocs-newsletter
+pytz==2022.7.1
+    # via mkdocs-git-revision-date-localized-plugin
 pyyaml==6.0
     # via
     #   mkdocs
