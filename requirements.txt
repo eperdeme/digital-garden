@@ -103,13 +103,13 @@ mkdocs-git-revision-date-localized-plugin==1.2.0
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
-mkdocs-material==9.1.2
+mkdocs-material==9.1.3
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
 mkdocs-material-extensions==1.1.1
     # via mkdocs-material
-mkdocs-minify-plugin==0.6.2
+mkdocs-minify-plugin==0.6.3
     # via -r requirements.in
 mkdocs-newsletter==1.0.1
     # via -r requirements.in
@@ -204,7 +204,7 @@ watchdog==2.3.1
     # via mkdocs
 webencodings==0.5.1
     # via bleach
-wheel==0.38.4
+wheel==0.40.0
     # via python-semantic-release
 zipp==3.15.0
     # via importlib-metadata
