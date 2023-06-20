@@ -75,7 +75,7 @@ jinja2==3.1.2
     #   mkdocs-material
 jsmin==3.0.1
     # via mkdocs-minify-plugin
-keyring==23.13.1
+keyring==24.0.0
     # via twine
 markdown==3.3.7
     # via
@@ -156,7 +156,7 @@ pyyaml==6.0
     #   pyyaml-env-tag
 pyyaml-env-tag==0.1
     # via mkdocs
-readme-renderer==37.3
+readme-renderer==40.0
     # via twine
 regex==2023.6.3
     # via mkdocs-material
