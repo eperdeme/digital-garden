@@ -4,6 +4,8 @@
 #
 #    pip-compile --allow-unsafe requirements.in
 #
+annotated-types==0.5.0
+    # via pydantic
 babel==2.12.1
     # via mkdocs-git-revision-date-localized-plugin
 beautifulsoup4==4.12.2
@@ -131,8 +133,10 @@ proselint==0.13.0
     # via -r requirements.in
 pycparser==2.21
     # via cffi
-pydantic==1.10.9
+pydantic==2.0
     # via mkdocs-newsletter
+pydantic-core==2.0.1
+    # via pydantic
 pygments==2.15.1
     # via
     #   mkdocs-material
@@ -193,7 +197,9 @@ tqdm==4.65.0
 twine==3.8.0
     # via python-semantic-release
 typing-extensions==4.7.0
-    # via pydantic
+    # via
+    #   pydantic
+    #   pydantic-core
 urllib3==2.0.3
     # via
     #   requests
