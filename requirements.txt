@@ -133,9 +133,9 @@ proselint==0.13.0
     # via -r requirements.in
 pycparser==2.21
     # via cffi
-pydantic==2.0
+pydantic==2.0.1
     # via mkdocs-newsletter
-pydantic-core==2.0.1
+pydantic-core==2.0.2
     # via pydantic
 pygments==2.15.1
     # via
