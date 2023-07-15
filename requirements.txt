@@ -133,9 +133,9 @@ proselint==0.13.0
     # via -r requirements.in
 pycparser==2.21
     # via cffi
-pydantic==2.0.2
+pydantic==2.0.3
     # via mkdocs-newsletter
-pydantic-core==2.1.2
+pydantic-core==2.3.0
     # via pydantic
 pygments==2.15.1
     # via
@@ -210,5 +210,5 @@ webencodings==0.5.1
     # via bleach
 wheel==0.40.0
     # via python-semantic-release
-zipp==3.16.1
+zipp==3.16.2
     # via importlib-metadata
