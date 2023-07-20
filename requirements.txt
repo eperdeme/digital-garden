@@ -158,7 +158,7 @@ typing-extensions==4.7.1
     # via
     #   pydantic
     #   pydantic-core
-urllib3==2.0.3
+urllib3==2.0.4
     # via requests
 watchdog==3.0.0
     # via mkdocs
