@@ -93,7 +93,7 @@ mkdocs-material==9.3.2
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
-mkdocs-material-extensions==1.1.1
+mkdocs-material-extensions==1.2
     # via mkdocs-material
 mkdocs-minify-plugin==0.7.1
     # via -r requirements.in
@@ -172,7 +172,7 @@ typing-extensions==4.8.0
     # via
     #   pydantic
     #   pydantic-core
-urllib3==2.0.4
+urllib3==2.0.5
     # via requests
 watchdog==3.0.0
     # via mkdocs
