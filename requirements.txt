@@ -14,7 +14,7 @@ beautifulsoup4==4.12.2
     # via mkdocs-newsletter
 certifi==2023.7.22
     # via requests
-charset-normalizer==3.2.0
+charset-normalizer==3.3.0
     # via requests
 click==8.1.7
     # via
@@ -154,7 +154,7 @@ requests==2.31.0
     #   requests-toolbelt
 requests-toolbelt==1.0.0
     # via python-gitlab
-rich==13.5.3
+rich==13.6.0
     # via python-semantic-release
 shellingham==1.5.3
     # via python-semantic-release
