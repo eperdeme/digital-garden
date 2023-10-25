@@ -6,7 +6,7 @@
 #
 annotated-types==0.6.0
     # via pydantic
-babel==2.13.0
+babel==2.13.1
     # via
     #   mkdocs-git-revision-date-localized-plugin
     #   mkdocs-material
