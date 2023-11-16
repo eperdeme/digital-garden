@@ -115,11 +115,11 @@ platformdirs==4.0.0
     # via mkdocs
 proselint==0.13.0
     # via -r requirements.in
-pydantic==2.5.0
+pydantic==2.5.1
     # via
     #   mkdocs-newsletter
     #   python-semantic-release
-pydantic-core==2.14.1
+pydantic-core==2.14.3
     # via pydantic
 pygments==2.16.1
     # via
@@ -154,7 +154,7 @@ requests==2.31.0
     #   requests-toolbelt
 requests-toolbelt==1.0.0
     # via python-gitlab
-rich==13.6.0
+rich==13.7.0
     # via python-semantic-release
 shellingham==1.5.4
     # via python-semantic-release
