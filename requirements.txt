@@ -121,7 +121,7 @@ pydantic==2.5.1
     #   python-semantic-release
 pydantic-core==2.14.3
     # via pydantic
-pygments==2.16.1
+pygments==2.17.0
     # via
     #   mkdocs-material
     #   rich
