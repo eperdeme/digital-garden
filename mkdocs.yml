@@ -22,7 +22,8 @@ nav:
     - BlackFriday: shopping/blackfriday.md
   - Homebrew:
     - Pinter: brewing/pinter.md
-
+  - Projects:
+    - pi-kube-cluster: projects/pi-kube-cluster/commands.md 
 theme:
   name: material
   custom_dir: theme
