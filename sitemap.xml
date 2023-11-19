@@ -56,6 +56,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://www.eper.net/projects/pi-kube-cluster/commands/</loc>
+         <lastmod>2023-11-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://www.eper.net/shopping/blackfriday/</loc>
          <lastmod>2023-11-19</lastmod>
          <changefreq>daily</changefreq>
