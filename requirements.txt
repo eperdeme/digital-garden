@@ -125,7 +125,7 @@ pymdown-extensions==10.7
     # via
     #   -r requirements.in
     #   mkdocs-material
-python-dateutil==2.9.0
+python-dateutil==2.9.0.post0
     # via ghp-import
 python-gitlab==3.15.0
     # via python-semantic-release
