@@ -85,11 +85,11 @@ mkdocs-autolinks-plugin==0.7.1
     #   mkdocs-newsletter
 mkdocs-get-deps==0.2.0
     # via mkdocs
-mkdocs-git-revision-date-localized-plugin==1.2.6
+mkdocs-git-revision-date-localized-plugin==1.2.7
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
-mkdocs-material==9.5.31
+mkdocs-material==9.5.32
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
