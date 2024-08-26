@@ -107,7 +107,7 @@ ordered-set==4.1.0
     # via deepdiff
 packaging==24.1
     # via mkdocs
-paginate==0.5.6
+paginate==0.5.7
     # via mkdocs-material
 pathspec==0.12.1
     # via mkdocs
