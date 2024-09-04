@@ -169,5 +169,5 @@ typing-extensions==4.12.2
     # via pydantic
 urllib3==2.2.2
     # via requests
-watchdog==5.0.1
+watchdog==5.0.2
     # via mkdocs
