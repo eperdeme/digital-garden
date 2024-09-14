@@ -42,7 +42,7 @@ gitpython==3.1.43
     #   python-semantic-release
 htmlmin2==0.1.13
     # via mkdocs-minify-plugin
-idna==3.8
+idna==3.9
     # via requests
 importlib-resources==5.7.0
     # via python-semantic-release
@@ -111,7 +111,7 @@ paginate==0.5.7
     # via mkdocs-material
 pathspec==0.12.1
     # via mkdocs
-platformdirs==4.3.2
+platformdirs==4.3.3
     # via mkdocs-get-deps
 proselint==0.14.0
     # via -r requirements.in
