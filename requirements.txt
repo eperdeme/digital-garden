@@ -169,7 +169,7 @@ typing-extensions==4.12.2
     # via
     #   pydantic
     #   rich
-urllib3==2.2.3
+urllib3==2.3.0
     # via requests
 watchdog==6.0.0
     # via mkdocs
