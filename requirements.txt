@@ -165,7 +165,7 @@ soupsieve==2.6
     # via beautifulsoup4
 tomlkit==0.13.2
     # via python-semantic-release
-typing-extensions==4.13.0
+typing-extensions==4.13.1
     # via
     #   beautifulsoup4
     #   pydantic
