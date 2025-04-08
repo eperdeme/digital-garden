@@ -105,7 +105,7 @@ mkdocs-section-index==0.3.10
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
-orderly-set==5.3.0
+orderly-set==5.3.1
     # via deepdiff
 packaging==24.2
     # via mkdocs
