@@ -165,12 +165,12 @@ soupsieve==2.6
     # via beautifulsoup4
 tomlkit==0.13.2
     # via python-semantic-release
-typing-extensions==4.13.1
+typing-extensions==4.13.2
     # via
     #   beautifulsoup4
     #   pydantic
     #   rich
-urllib3==2.3.0
+urllib3==2.4.0
     # via requests
 watchdog==6.0.0
     # via mkdocs
