@@ -107,7 +107,7 @@ mkdocs-section-index==0.3.10
     #   mkdocs-newsletter
 orderly-set==5.4.0
     # via deepdiff
-packaging==24.2
+packaging==25.0
     # via mkdocs
 paginate==0.5.7
     # via mkdocs-material
