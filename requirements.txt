@@ -117,7 +117,7 @@ platformdirs==4.3.7
     # via mkdocs-get-deps
 proselint==0.14.0
     # via -r requirements.in
-pydantic==1.10.21
+pydantic==1.10.22
     # via
     #   mkdocs-newsletter
     #   python-semantic-release
