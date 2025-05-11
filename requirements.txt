@@ -16,7 +16,7 @@ certifi==2025.4.26
     # via requests
 charset-normalizer==3.4.2
     # via requests
-click==8.1.8
+click==8.2.0
     # via
     #   mkdocs
     #   proselint
@@ -91,7 +91,7 @@ mkdocs-git-revision-date-localized-plugin==1.4.5
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
-mkdocs-material==9.6.12
+mkdocs-material==9.6.13
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
