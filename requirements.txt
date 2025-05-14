@@ -91,7 +91,7 @@ mkdocs-git-revision-date-localized-plugin==1.4.5
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
-mkdocs-material==9.6.13
+mkdocs-material==9.6.14
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
@@ -143,7 +143,7 @@ pyyaml==6.0.2
     #   mkdocs-get-deps
     #   pymdown-extensions
     #   pyyaml-env-tag
-pyyaml-env-tag==1.0
+pyyaml-env-tag==1.1
     # via mkdocs
 requests==2.32.3
     # via
