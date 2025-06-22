@@ -121,11 +121,11 @@ pydantic==1.10.22
     # via
     #   mkdocs-newsletter
     #   python-semantic-release
-pygments==2.19.1
+pygments==2.19.2
     # via
     #   mkdocs-material
     #   rich
-pymdown-extensions==10.15
+pymdown-extensions==10.16
     # via
     #   -r requirements.in
     #   mkdocs-material
