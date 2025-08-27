@@ -114,7 +114,7 @@ paginate==0.5.7
     # via mkdocs-material
 pathspec==0.12.1
     # via mkdocs
-platformdirs==4.3.8
+platformdirs==4.4.0
     # via mkdocs-get-deps
 proselint==0.14.0
     # via -r requirements.in
