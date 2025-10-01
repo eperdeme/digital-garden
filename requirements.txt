@@ -16,10 +16,9 @@ certifi==2025.8.3
     # via requests
 charset-normalizer==3.4.3
     # via requests
-click==8.2.1
+click==8.3.0
     # via
     #   mkdocs
-    #   mkdocs-material
     #   proselint
     #   python-semantic-release
 colorama==0.4.6
@@ -92,7 +91,7 @@ mkdocs-git-revision-date-localized-plugin==1.4.7
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
-mkdocs-material==9.6.20
+mkdocs-material==9.6.21
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
