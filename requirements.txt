@@ -12,7 +12,7 @@ backrefs==5.9
     # via mkdocs-material
 beautifulsoup4==4.14.2
     # via mkdocs-newsletter
-certifi==2025.8.3
+certifi==2025.10.5
     # via requests
 charset-normalizer==3.4.3
     # via requests
