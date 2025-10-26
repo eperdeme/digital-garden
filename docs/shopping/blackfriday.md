@@ -8,7 +8,7 @@
 | ROKR Space Shuttle 3D Wooden Puzzle LKA02 | £44.99 | 3D wooden rocket-puzzle kit from ROKR ([RobotimeOnline](https://www.robotimeonline.com/en-gb/products/rokr-space-shuttle-3d-wooden-puzzle-lka02)) |
 | Eve Energy (Matter) UK-Smart Plug | £39.95 | Matter & Thread enabled smart plug for UK sockets, with energy monitoring ([Apple UK](https://www.apple.com/uk/shop/product/HQGE2B/A/eve-energy-matter-smart-plug-power-meter)) |
 | Google Pixel 10 Pro XL Jade 256 GB (Unlocked) | £1,199 | SIM-free from Google UK, Jade colour, 256 GB storage ([John Lewis](https://www.johnlewis.com/google-pixel-10-pro-xl-smartphone-android-6-8-5g-sim-free/jade/p114219679)) |
-
+| Philips Sonicare Cordless Power Flosser 3000 | ~£120 | USB-C rechargeable cordless water flosser (250 ml tank, up to ~14 days on a charge) |
 
 ## 2023
 
