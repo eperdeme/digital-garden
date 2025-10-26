@@ -6,6 +6,8 @@
 |------|--------|-------------|
 | DJI Mini 5 Pro Fly More Combo (with RC 2 controller) | £979 | Drone bundle: 1″ CMOS sensor, LCD-screen remote (RC 2), 3 batteries, charging hub etc. ([store.dji.com](https://store.dji.com/uk/product/dji-mini-5-pro-fly-more-combo-dji-rc2?vid=199671)) |
 | ROKR Space Shuttle 3D Wooden Puzzle LKA02 | £44.99 | 3D wooden rocket-puzzle kit from ROKR ([RobotimeOnline](https://www.robotimeonline.com/en-gb/products/rokr-space-shuttle-3d-wooden-puzzle-lka02)) |
+| Eve Energy (Matter) UK-Smart Plug | £39.95 | Matter & Thread enabled smart plug for UK sockets, with energy monitoring ([Apple UK](https://www.apple.com/uk/shop/product/HQGE2B/A/eve-energy-matter-smart-plug-power-meter)) |
+| Google Pixel 10 Pro XL Jade 256 GB (Unlocked) | £1,199 | SIM-free from Google UK, Jade colour, 256 GB storage ([John Lewis](https://www.johnlewis.com/google-pixel-10-pro-xl-smartphone-android-6-8-5g-sim-free/jade/p114219679)) |
 
 
 ## 2023
