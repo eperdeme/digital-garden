@@ -19,7 +19,6 @@ charset-normalizer==3.4.4
 click==8.3.0
     # via
     #   mkdocs
-    #   proselint
     #   python-semantic-release
 colorama==0.4.6
     # via mkdocs-material
@@ -42,6 +41,12 @@ gitpython==3.1.45
     #   mkdocs-git-revision-date-localized-plugin
     #   mkdocs-newsletter
     #   python-semantic-release
+google-re2==1.1.20251105
+    # via
+    #   google-re2-stubs
+    #   proselint
+google-re2-stubs==0.1.1
+    # via proselint
 htmlmin2==0.1.13
     # via mkdocs-minify-plugin
 idna==3.11
@@ -115,7 +120,7 @@ pathspec==0.12.1
     # via mkdocs
 platformdirs==4.5.0
     # via mkdocs-get-deps
-proselint==0.14.0
+proselint==0.16.0
     # via -r requirements.in
 pydantic==1.10.24
     # via
