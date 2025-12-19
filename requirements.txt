@@ -96,7 +96,7 @@ mkdocs-git-revision-date-localized-plugin==1.5.0
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
-mkdocs-material==9.7.0
+mkdocs-material==9.7.1
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
@@ -122,7 +122,7 @@ platformdirs==4.5.1
     # via mkdocs-get-deps
 proselint==0.16.0
     # via -r requirements.in
-pydantic==1.10.24
+pydantic==1.10.26
     # via
     #   mkdocs-newsletter
     #   python-semantic-release
@@ -164,7 +164,7 @@ six==1.17.0
     # via python-dateutil
 smmap==5.0.2
     # via gitdb
-soupsieve==2.8
+soupsieve==2.8.1
     # via beautifulsoup4
 tomlkit==0.13.3
     # via python-semantic-release
