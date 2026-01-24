@@ -130,7 +130,7 @@ pygments==2.19.2
     # via
     #   mkdocs-material
     #   rich
-pymdown-extensions==10.20
+pymdown-extensions==10.20.1
     # via
     #   -r requirements.in
     #   mkdocs-material
