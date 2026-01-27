@@ -92,7 +92,7 @@ mkdocs-autolinks-plugin==0.7.1
     #   mkdocs-newsletter
 mkdocs-get-deps==0.2.0
     # via mkdocs
-mkdocs-git-revision-date-localized-plugin==1.5.0
+mkdocs-git-revision-date-localized-plugin==1.5.1
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
@@ -116,7 +116,7 @@ packaging==26.0
     # via mkdocs
 paginate==0.5.7
     # via mkdocs-material
-pathspec==1.0.3
+pathspec==1.0.4
     # via mkdocs
 platformdirs==4.5.1
     # via mkdocs-get-deps
