@@ -4,7 +4,7 @@
 #
 #    pip-compile --allow-unsafe requirements.in
 #
-babel==2.17.0
+babel==2.18.0
     # via
     #   mkdocs-git-revision-date-localized-plugin
     #   mkdocs-material
@@ -156,7 +156,7 @@ requests==2.32.5
     #   requests-toolbelt
 requests-toolbelt==1.0.0
     # via python-gitlab
-rich==14.3.1
+rich==14.3.2
     # via python-semantic-release
 shellingham==1.5.4
     # via python-semantic-release
