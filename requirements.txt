@@ -8,7 +8,7 @@ babel==2.18.0
     # via
     #   mkdocs-git-revision-date-localized-plugin
     #   mkdocs-material
-backrefs==6.1
+backrefs==6.2
     # via mkdocs-material
 beautifulsoup4==4.14.3
     # via mkdocs-newsletter
