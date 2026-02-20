@@ -156,7 +156,7 @@ requests==2.32.5
     #   requests-toolbelt
 requests-toolbelt==1.0.0
     # via python-gitlab
-rich==14.3.2
+rich==14.3.3
     # via python-semantic-release
 shellingham==1.5.4
     # via python-semantic-release
