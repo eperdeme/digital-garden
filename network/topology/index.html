@@ -1428,6 +1428,39 @@
 <li><strong>U7 Pro (Downstairs):</strong> Connected to RB5009.</li>
 <li><strong>U6 Pro (Garage):</strong> Connected to Garage Switch.</li>
 </ul>
+<hr />
+<h1 id="proposed-upgrade-16gb-internet">Proposed Upgrade: 1.6Gb Internet<a class="headerlink" href="#proposed-upgrade-16gb-internet" title="Permanent link">⚑</a></h1>
+<p>To support the 1.6Gb (2.5Gb ONT) internet upgrade, the network will be restructured to free up the RB5009's single 2.5G RJ45 port for the WAN connection.</p>
+<h2 id="planned-changes">Planned Changes<a class="headerlink" href="#planned-changes" title="Permanent link">⚑</a></h2>
+<ol>
+<li><strong>Add 2<sup>nd</sup> KeepLink (House):</strong> Install under the stairs next to the RB5009.</li>
+<li><strong>10Gb Backbone:</strong> Connect RB5009 SFP+ port to House KeepLink SFP+ port (10Gb link).</li>
+<li><strong>WAN Upgrade:</strong> Move ONT to the RB5009 2.5G port (previously used for garage uplink).</li>
+<li><strong>Garage Uplink:</strong> Move the Garage Cat7 run to a 2.5G port on the House KeepLink.</li>
+</ol>
+<pre class="mermaid"><code>graph TD
+    ISP((Internet / BT 1.6Gb)) --- ONT[ONT 2.5G]
+    ONT -- "2.5Gb RJ45" --- RB5009[MikroTik RB5009]
+
+    RB5009 -- "10Gb SFP+ DAC/Fiber" --- HSW[KeepLink Switch&lt;br/&gt;Under Stairs]
+
+    subgraph "Main House (2.5G Network)"
+        HSW --- U7PU[Ubiquiti U7 Pro]
+        HSW --- U7PD[Ubiquiti U7 Pro]
+        HSW --- Other[Other 2.5G Devices]
+    end
+
+    HSW -- "2.5Gb RJ45&lt;br/&gt;(Outdoor Cat7 Run)" --- GSW[KeepLink Switch&lt;br/&gt;Garage]
+
+    subgraph "Garage (2.5G Network)"
+        GSW --- Plex[Plex Server]
+        GSW --- U6PG[Ubiquiti U6 Pro]
+    end
+
+    style RB5009 fill:#f96,stroke:#333,stroke-width:2px
+    style HSW fill:#f96,stroke:#333,stroke-width:2px
+    style GSW fill:#f96,stroke:#333,stroke-width:2px
+    style ISP fill:#0cf,stroke:#333,stroke-width:2px</code></pre>
 
 
 
