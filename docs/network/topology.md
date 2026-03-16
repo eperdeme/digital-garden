@@ -52,3 +52,42 @@ graph TD
 - **U7 Pro (Upstairs):** Connected to RB5009.
 - **U7 Pro (Downstairs):** Connected to RB5009.
 - **U6 Pro (Garage):** Connected to Garage Switch.
+
+---
+
+# Proposed Upgrade: 1.6Gb Internet
+
+To support the 1.6Gb (2.5Gb ONT) internet upgrade, the network will be restructured to free up the RB5009's single 2.5G RJ45 port for the WAN connection.
+
+## Planned Changes
+
+1.  **Add 2nd KeepLink (House):** Install under the stairs next to the RB5009.
+2.  **10Gb Backbone:** Connect RB5009 SFP+ port to House KeepLink SFP+ port (10Gb link).
+3.  **WAN Upgrade:** Move ONT to the RB5009 2.5G port (previously used for garage uplink).
+4.  **Garage Uplink:** Move the Garage Cat7 run to a 2.5G port on the House KeepLink.
+
+```mermaid
+graph TD
+    ISP((Internet / BT 1.6Gb)) --- ONT[ONT 2.5G]
+    ONT -- "2.5Gb RJ45" --- RB5009[MikroTik RB5009]
+
+    RB5009 -- "10Gb SFP+ DAC/Fiber" --- HSW[KeepLink Switch<br/>Under Stairs]
+
+    subgraph "Main House (2.5G Network)"
+        HSW --- U7PU[Ubiquiti U7 Pro]
+        HSW --- U7PD[Ubiquiti U7 Pro]
+        HSW --- Other[Other 2.5G Devices]
+    end
+
+    HSW -- "2.5Gb RJ45<br/>(Outdoor Cat7 Run)" --- GSW[KeepLink Switch<br/>Garage]
+
+    subgraph "Garage (2.5G Network)"
+        GSW --- Plex[Plex Server]
+        GSW --- U6PG[Ubiquiti U6 Pro]
+    end
+
+    style RB5009 fill:#f96,stroke:#333,stroke-width:2px
+    style HSW fill:#f96,stroke:#333,stroke-width:2px
+    style GSW fill:#f96,stroke:#333,stroke-width:2px
+    style ISP fill:#0cf,stroke:#333,stroke-width:2px
+```
