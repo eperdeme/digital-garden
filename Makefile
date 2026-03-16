@@ -53,7 +53,7 @@ docs:
 	@echo "- Serving documentation -"
 	@echo "-------------------------"
 
-	uv run mkdocs serve
+	uv run zensical serve -f zensical.yml
 
 	@echo ""
 
@@ -77,7 +77,7 @@ build-docs:
 	@echo "- Building documentation -"
 	@echo "--------------------------"
 
-	uv run mkdocs build
+	uv run zensical build -f zensical.yml
 
 	@echo ""
 

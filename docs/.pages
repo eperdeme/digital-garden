@@ -1,0 +1,7 @@
+nav:
+  - Introduction: index.md
+  - Ants: ants
+  - Shopping: shopping
+  - Homebrew: brewing
+  - Projects: projects
+  - Network: network

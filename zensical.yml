@@ -1,0 +1,82 @@
+# Zensical Configuration
+# https://zensical.org/docs/reference/configuration/
+
+site_name: Flynns 2nd Brain
+site_description: Big of everything.
+site_author: nflynn
+site_url: https://www.eper.net
+
+theme:
+  name: material
+  custom_dir: theme
+  features:
+    - navigation.instant
+    - navigation.top
+    - navigation.tracking
+    - navigation.indexes
+    - content.action.edit
+    - content.action.view
+  palette:
+    - media: '(prefers-color-scheme: light)'
+      scheme: default
+      primary: blue grey
+      accent: light blue
+    - media: '(prefers-color-scheme: dark)'
+      scheme: slate
+      primary: blue grey
+      accent: light blue
+
+# Built-in plugins (enabled by default in Zensical)
+plugins:
+  - search
+  - rss
+  - git-revision-date
+
+# Custom CSS/JS
+extra_css:
+  - stylesheets/extra.css
+  - stylesheets/links.css
+
+# Repository information
+repo_name: eperdeme/digital-garden
+repo_url: https://github.com/eperdeme/digital-garden
+
+# Markdown extensions (Zensical supports common MkDocs extensions)
+markdown_extensions:
+  - abbr
+  - admonition
+  - meta
+  - def_list
+  - toc:
+      permalink: ⚑
+  - pymdownx.arithmatex
+  - pymdownx.betterem
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Navigation (Handled automatically or by docs/.pages)
+# Zensical respects the awesome-pages pattern if configured
+# or can be explicitly defined here.
+
+extra:
+  analytics:
+    provider: google
+    property: G-6BLZKM0HS6
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/eperdeme
