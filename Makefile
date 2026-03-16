@@ -20,26 +20,23 @@ clean:
 	@echo "- Cleaning unwanted files -"
 	@echo "---------------------------"
 
-	rm -rf `find . -name __pycache__`
-	rm -f `find . -type f -name '*.py[co]' `
-	rm -f `find . -type f -name '*.rej' `
-	rm -f `find . -type f -name '*~' `
-	rm -f `find . -type f -name '.*~' `
-	rm -rf .cache
-	rm -rf .pytest_cache
-	rm -rf .mypy_cache
-	rm -rf htmlcov
-	rm -rf *.egg-info
-	rm -f .coverage
-	rm -f .coverage.*
-	rm -rf build
-	rm -rf dist
-	rm -f src/*.c pydantic/*.so
-	rm -rf site
-	rm -rf docs/_build
-	rm -rf docs/.changelog.md docs/.version.md docs/.tmp_schema_mappings.html
-	rm -rf codecov.sh
-	rm -rf coverage.xml
+	rm -rf site/
+	find . -type d -name "__pycache__" -exec rm -rf {} +
+	find . -type f -name "*.py[co]" -delete
+	find . -type f -name "*~" -delete
+	find . -type f -name ".*~" -delete
+	rm -rf .cache .pytest_cache .mypy_cache
+	rm -rf build/ dist/ *.egg-info
+
+	@echo ""
+
+.PHONY: lint
+lint:
+	@echo "---------------------------"
+	@echo "- Linting repository      -"
+	@echo "---------------------------"
+
+	pre-commit run --all-files
 
 	@echo ""
 

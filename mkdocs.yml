@@ -23,7 +23,7 @@ nav:
   - Homebrew:
     - Pinter: brewing/pinter.md
   - Projects:
-    - pi-kube-cluster: projects/pi-kube-cluster/commands.md 
+    - pi-kube-cluster: projects/pi-kube-cluster/commands.md
 theme:
   name: material
   custom_dir: theme
@@ -31,6 +31,10 @@ theme:
   features:
     - navigation.instant
     - navigation.top
+    - navigation.tracking
+    - navigation.indexes
+    - content.action.edit
+    - content.action.view
   palette:
     # Light mode
     - media: '(prefers-color-scheme: light)'
@@ -59,13 +63,15 @@ repo_url: https://github.com/eperdeme/digital-garden
 
 plugins:
   - search
-#  - autolinks
   - git-revision-date-localized:
       type: timeago
   - minify:
       minify_html: true
   - section-index
-#  - mkdocs-newsletter
+  - rss:
+      date_from_git: true
+  - awesome-pages:
+      collapse_single_pages: true
 
 markdown_extensions:
   - abbr

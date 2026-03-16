@@ -8,11 +8,11 @@ kube-vip manifest pod \
     --arp \
     --leaderElection \
     --enableLoadBalancer | sudo tee /etc/kubernetes/manifests/kube-vip.yaml
-```    
+```
 
 ```
 # Disable swap
-sudo sed -i 's/CONF_SWAPSIZE=100/CONF_SWAPSIZE=0/g' /boot/cmdline.txt 
+sudo sed -i 's/CONF_SWAPSIZE=100/CONF_SWAPSIZE=0/g' /boot/cmdline.txt
 
 # enable cgroups memory
 
@@ -49,7 +49,7 @@ sysctl net.bridge.bridge-nf-call-iptables net.bridge.bridge-nf-call-ip6tables ne
 
 
 
-# Install kube tools 
+# Install kube tools
 sudo mkdir -p /etc/apt/keyrings
 sudo apt-get update
 sudo apt-get install -y apt-transport-https ca-certificates curl
