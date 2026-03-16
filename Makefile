@@ -1,16 +1,23 @@
 .DEFAULT_GOAL := docs
 
+.PHONY: sync
+sync:
+	@echo "-------------------------"
+	@echo "- Syncing dependencies  -"
+	@echo "-------------------------"
+
+	uv sync
+
+	@echo ""
+
 .PHONY: update
 update:
 	@echo "-------------------------"
 	@echo "- Updating dependencies -"
 	@echo "-------------------------"
 
-	rm requirements.txt
-	touch requirements.txt
-	pip-compile -Ur requirements.in --allow-unsafe
-
-	pip install -r requirements.txt
+	uv lock --upgrade
+	uv sync
 
 	@echo ""
 
@@ -36,7 +43,7 @@ lint:
 	@echo "- Linting repository      -"
 	@echo "---------------------------"
 
-	pre-commit run --all-files
+	uv run pre-commit run --all-files
 
 	@echo ""
 
@@ -46,7 +53,7 @@ docs:
 	@echo "- Serving documentation -"
 	@echo "-------------------------"
 
-	mkdocs serve
+	uv run mkdocs serve
 
 	@echo ""
 
@@ -70,7 +77,7 @@ build-docs:
 	@echo "- Building documentation -"
 	@echo "--------------------------"
 
-	mkdocs build
+	uv run mkdocs build
 
 	@echo ""
 
@@ -80,7 +87,7 @@ bump-version:
 	@echo "- Bumping program version -"
 	@echo "---------------------------"
 
-	cz bump --changelog --no-verify
+	uv run cz bump --changelog --no-verify
 	git push
 	git push --tags
 
