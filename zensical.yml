@@ -2,35 +2,56 @@
 # https://zensical.org/docs/reference/configuration/
 
 site_name: Flynns 2nd Brain
-site_description: Big of everything.
+site_description: Personal knowledge base and documentation.
 site_author: nflynn
 site_url: https://www.eper.net
 
 theme:
   name: material
   custom_dir: theme
+  logo: assets/images/chi-dna.svg
+  favicon: assets/images/bluebook.svg
   features:
     - navigation.instant
     - navigation.top
     - navigation.tracking
     - navigation.indexes
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.footer
+    - search.highlight
+    - search.share
+    - search.suggest
     - content.action.edit
     - content.action.view
+    - content.code.copy
+    - content.code.annotate
   palette:
     - media: '(prefers-color-scheme: light)'
       scheme: default
       primary: indigo
       accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
     - media: '(prefers-color-scheme: dark)'
       scheme: slate
       primary: indigo
       accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Inter
+    code: JetBrains Mono
 
 # Built-in plugins (enabled by default in Zensical)
 plugins:
   - search
   - rss
-  - git-revision-date
+  - git-revision-date:
+      type: timeago
 
 # Custom CSS/JS
 extra_css:
@@ -70,7 +91,6 @@ markdown_extensions:
   - pymdownx.tilde
 
 # Mermaid theme configuration
-# Zensical handles this in the extra section or top-level depending on version
 extra:
   analytics:
     provider: google
@@ -78,6 +98,12 @@ extra:
   social:
     - icon: fontawesome/brands/github-alt
       link: https://github.com/eperdeme
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/eperdeme
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:nflynn@eper.net
+  copyright: |
+    Copyright &copy; 2026 nflynn
   mermaid:
     theme: base
     themeVariables:
