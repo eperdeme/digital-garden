@@ -1462,9 +1462,9 @@
 <tr>
 <th>Device Name</th>
 <th>IP Address</th>
+<th>MAC Address</th>
 <th>Model</th>
 <th>Role</th>
-<th>Location</th>
 <th>Connection</th>
 </tr>
 </thead>
@@ -1472,58 +1472,66 @@
 <tr>
 <td><strong>Router</strong></td>
 <td><code>192.168.1.254</code></td>
-<td>MikroTik RB5009UPr+S+IN</td>
+<td><code>18:FD:74:78:4A:D1</code></td>
+<td>RB5009UPr+S+IN</td>
 <td>Gateway / PoE Switch</td>
-<td>Stairs</td>
-<td>2.5GbE WAN</td>
+<td>2.5GbE WAN (<code>ether1</code>)</td>
 </tr>
 <tr>
 <td><strong>House Switch</strong></td>
 <td><code>192.168.1.250</code></td>
-<td>KeepLink KP-9000-9XHPML-X</td>
+<td><code>78:D8:00:32:45:5E</code></td>
+<td>KP-9000-9XHPML-X</td>
 <td>2.5G PoE Switch</td>
-<td>Stairs</td>
-<td>10Gb SFP+ (DAC)</td>
+<td>10Gb SFP+ (<code>sfp-sfpplus1</code>)</td>
 </tr>
 <tr>
 <td><strong>Garage Switch</strong></td>
 <td><code>192.168.1.251</code></td>
-<td>KeepLink KP-9000-9XHPML-X</td>
+<td><code>78:D8:00:32:45:5F</code></td>
+<td>KP-9000-9XHPML-X</td>
 <td>2.5G PoE Switch</td>
-<td>Garage</td>
-<td>2.5GbE RJ45</td>
+<td>2.5GbE RJ45 (from House SW)</td>
 </tr>
 <tr>
 <td><strong>Plex Server</strong></td>
 <td><code>192.168.1.6</code></td>
+<td><code>9A:82:21:67:78:97</code></td>
 <td>Custom/Server</td>
 <td>Media Server</td>
-<td>Garage</td>
 <td>1Gb Ethernet</td>
 </tr>
 <tr>
-<td><strong>AP Upstairs</strong></td>
-<td><code>192.168.1.x</code></td>
+<td>AP Upstairs</td>
+<td><code>192.168.1.10</code></td>
+<td><code>74:40:BE:9B:2C:E8</code></td>
 <td>Ubiquiti U7 Pro</td>
 <td>Access Point</td>
-<td>Upstairs</td>
-<td>2.5GbE (PoE+)</td>
+<td>1GbE PoE (<code>ether3</code>)</td>
 </tr>
 <tr>
-<td><strong>AP Downstairs</strong></td>
-<td><code>192.168.1.x</code></td>
+<td>AP Downstairs</td>
+<td><code>192.168.1.44</code></td>
+<td><code>04:17:B6:7D:66:51</code></td>
 <td>Ubiquiti U7 Pro</td>
 <td>Access Point</td>
-<td>Downstairs</td>
-<td>1GbE (PoE+)</td>
+<td>1GbE PoE (<code>ether5</code>)</td>
+</tr>
+<tr>
+<td>Smart Hub</td>
+<td><code>192.168.1.2</code></td>
+<td><code>AC:67:84:92:97:7C</code></td>
+<td>Smart Hub</td>
+<td>Hub</td>
+<td>10/100 PoE (<code>ether2</code>)</td>
 </tr>
 <tr>
 <td><strong>AP Garage</strong></td>
 <td><code>192.168.1.x</code></td>
+<td><code>x:x:x:x:x:x</code></td>
 <td>Ubiquiti U6 Pro</td>
 <td>Access Point</td>
-<td>Garage</td>
-<td>1GbE (PoE+)</td>
+<td>1GbE PoE (KeepLink Garage)</td>
 </tr>
 </tbody>
 </table>
