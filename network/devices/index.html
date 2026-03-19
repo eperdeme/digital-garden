@@ -996,6 +996,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#isp-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ISP Configuration
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1355,6 +1366,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#isp-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ISP Configuration
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1439,6 +1461,7 @@
 <thead>
 <tr>
 <th>Device Name</th>
+<th>IP Address</th>
 <th>Model</th>
 <th>Role</th>
 <th>Location</th>
@@ -1448,27 +1471,31 @@
 <tbody>
 <tr>
 <td><strong>Router</strong></td>
+<td><code>192.168.1.254</code></td>
 <td>MikroTik RB5009UPr+S+IN</td>
 <td>Gateway / PoE Switch</td>
-<td>Main</td>
-<td>FTTP</td>
+<td>Stairs</td>
+<td>2.5GbE WAN</td>
+</tr>
+<tr>
+<td><strong>House Switch</strong></td>
+<td><code>192.168.1.250</code></td>
+<td>KeepLink KP-9000-9XHPML-X</td>
+<td>2.5G PoE Switch</td>
+<td>Stairs</td>
+<td>10Gb SFP+ (DAC)</td>
 </tr>
 <tr>
 <td><strong>Garage Switch</strong></td>
+<td><code>192.168.1.251</code></td>
 <td>KeepLink KP-9000-9XHPML-X</td>
-<td>2.5G Managed PoE Switch</td>
+<td>2.5G PoE Switch</td>
 <td>Garage</td>
-<td>2.5Gb SFP+ (RJ45)</td>
-</tr>
-<tr>
-<td><strong>House Switch (Planned)</strong></td>
-<td>KeepLink KP-9000-9XHPML-X</td>
-<td>2.5G Managed PoE Switch</td>
-<td>Under Stairs</td>
-<td>10Gb SFP+ (to RB5009)</td>
+<td>2.5GbE RJ45</td>
 </tr>
 <tr>
 <td><strong>Plex Server</strong></td>
+<td><code>192.168.1.6</code></td>
 <td>Custom/Server</td>
 <td>Media Server</td>
 <td>Garage</td>
@@ -1476,46 +1503,51 @@
 </tr>
 <tr>
 <td><strong>AP Upstairs</strong></td>
+<td><code>192.168.1.x</code></td>
 <td>Ubiquiti U7 Pro</td>
 <td>Access Point</td>
 <td>Upstairs</td>
-<td>PoE (RB5009)</td>
+<td>2.5GbE (PoE+)</td>
 </tr>
 <tr>
 <td><strong>AP Downstairs</strong></td>
+<td><code>192.168.1.x</code></td>
 <td>Ubiquiti U7 Pro</td>
 <td>Access Point</td>
 <td>Downstairs</td>
-<td>PoE (RB5009)</td>
+<td>1GbE (PoE+)</td>
 </tr>
 <tr>
 <td><strong>AP Garage</strong></td>
+<td><code>192.168.1.x</code></td>
 <td>Ubiquiti U6 Pro</td>
 <td>Access Point</td>
 <td>Garage</td>
-<td>PoE+ (KeepLink)</td>
+<td>1GbE (PoE+)</td>
 </tr>
 </tbody>
 </table>
 <h2 id="hardware-specifications">Hardware Specifications<a class="headerlink" href="#hardware-specifications" title="Permanent link">⚑</a></h2>
 <h3 id="mikrotik-rb5009uprsin">MikroTik RB5009UPr+S+IN<a class="headerlink" href="#mikrotik-rb5009uprsin" title="Permanent link">⚑</a></h3>
 <ul>
-<li><strong>Ports:</strong> 7x 1G, 1x 2.5G, 1x 10G SFP+</li>
-<li><strong>PoE:</strong> 802.3af/at output on all 8 Ethernet ports.</li>
+<li><strong>Ports:</strong> 7x 1G, 1x 2.5G (<code>ether1</code> WAN), 1x 10G SFP+ (<code>sfp-sfpplus1</code> LAN)</li>
+<li><strong>Management:</strong> RouterOS v7.x</li>
+<li><strong>Configuration:</strong> Custom firewall rules with FastTrack and NAT. DDNS managed via HE.net script.</li>
 </ul>
 <h3 id="keeplink-kp-9000-9xhpml-x">KeepLink KP-9000-9XHPML-X<a class="headerlink" href="#keeplink-kp-9000-9xhpml-x" title="Permanent link">⚑</a></h3>
 <ul>
 <li><strong>Ports:</strong> 8x 2.5G RJ45 ports + 1x 10G SFP+ port.</li>
-<li><strong>Management:</strong> Web-managed (L2 Lite features).</li>
+<li><strong>Management:</strong> Web-managed.</li>
 <li><strong>PoE:</strong> 8x PoE+ ports with 120W total budget.</li>
-<li>
-<p><strong>Features:</strong> 802.1p QoS, Jumbo Frames, Non-blocking architecture.</p>
-</li>
-<li>
-<p><strong>ISP:</strong> BT Openreach FTTP</p>
-</li>
-<li><strong>Current Speed:</strong> 900 Mbps</li>
-<li><strong>Target Speed:</strong> 1600 Mbps</li>
+<li><strong>Deployment:</strong> Two units (House and Garage) forming the 2.5GbE access layer.</li>
+</ul>
+<h2 id="isp-configuration">ISP Configuration<a class="headerlink" href="#isp-configuration" title="Permanent link">⚑</a></h2>
+<ul>
+<li><strong>Type:</strong> BT Openreach FTTP</li>
+<li><strong>Current Connection:</strong> 1.6Gbps (2.5Gbps ONT)</li>
+<li><strong>Modem:</strong> Nokia 2.5G ONT</li>
+<li><strong>Public DNS:</strong> 8.8.8.8, 8.8.4.4</li>
+<li><strong>DDNS:</strong> <code>home.eper.net</code> (Hurricane Electric)</li>
 </ul>
 
 

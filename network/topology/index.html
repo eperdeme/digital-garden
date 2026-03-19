@@ -1020,10 +1020,21 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#garage-25g-switch" class="md-nav__link">
+  <a href="#keeplink-house-switch-kp-9000-9xhpml-x" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Garage 2.5G Switch
+        KeepLink House Switch (KP-9000-9XHPML-X)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#keeplink-garage-switch-kp-9000-9xhpml-x" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        KeepLink Garage Switch (KP-9000-9XHPML-X)
       
     </span>
   </a>
@@ -1373,10 +1384,21 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#garage-25g-switch" class="md-nav__link">
+  <a href="#keeplink-house-switch-kp-9000-9xhpml-x" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Garage 2.5G Switch
+        KeepLink House Switch (KP-9000-9XHPML-X)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#keeplink-garage-switch-kp-9000-9xhpml-x" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        KeepLink Garage Switch (KP-9000-9XHPML-X)
       
     </span>
   </a>
@@ -1479,79 +1501,22 @@
 
 
 <h1 id="network-topology">Network Topology<a class="headerlink" href="#network-topology" title="Permanent link">⚑</a></h1>
-<pre class="mermaid"><code>graph TD
-    ISP((Internet / BT Openreach)) --- ONT[ONT]
-    ONT --- RB5009[MikroTik RB5009&lt;br/&gt;Under Stairs]
-
-    subgraph "Main House"
-        RB5009 --- U7PU[Ubiquiti U7 Pro&lt;br/&gt;Upstairs]
-        RB5009 --- U7PD[Ubiquiti U7 Pro&lt;br/&gt;Downstairs]
-    end
-
-    RB5009 -- "SFP+ 2.5Gb RJ45&lt;br/&gt;(Outdoor Cat7 Run)" --- GSW[2.5G Managed Switch&lt;br/&gt;Garage]
-
-    subgraph "Garage"
-        GSW --- Plex[Plex Server&lt;br/&gt;1Gb]
-        GSW --- U6PG[Ubiquiti U6 Pro]
-    end
-
-    style RB5009 fill:#f96,stroke:#333,stroke-width:2px
-    style GSW fill:#f96,stroke:#333,stroke-width:2px
-    style ISP fill:#0cf,stroke:#333,stroke-width:2px</code></pre>
-<h2 id="internet-connection">Internet Connection<a class="headerlink" href="#internet-connection" title="Permanent link">⚑</a></h2>
-<ul>
-<li><strong>Provider:</strong> BT Openreach (FTTP)</li>
-<li><strong>ONT:</strong> Connected directly to RB5009.</li>
-</ul>
-<h2 id="core-hardware">Core Hardware<a class="headerlink" href="#core-hardware" title="Permanent link">⚑</a></h2>
-<h3 id="mikrotik-rb5009uprsin">MikroTik RB5009UPr+S+IN<a class="headerlink" href="#mikrotik-rb5009uprsin" title="Permanent link">⚑</a></h3>
-<ul>
-<li>Primary router and PoE provider for main house APs.</li>
-<li><strong>Location:</strong> Under the stairs.</li>
-<li><strong>SFP+ Port:</strong> Equipped with a 2.5Gb SFP-to-RJ45 module.</li>
-<li><strong>Uplink to Garage:</strong> A physical Cat7 cable run from under the stairs, routed outside the house, connecting to the Garage Switch.</li>
-</ul>
-<h3 id="garage-25g-switch">Garage 2.5G Switch<a class="headerlink" href="#garage-25g-switch" title="Permanent link">⚑</a></h3>
-<ul>
-<li><strong>Location:</strong> Garage.</li>
-<li><strong>Uplink:</strong> 2.5Gb copper link via the Cat7 run from the RB5009 SFP+ port.</li>
-<li><strong>Connected Devices:</strong><ul>
-<li><strong>Plex Server:</strong> 1Gb link.</li>
-<li><strong>Ubiquiti U6 Pro:</strong> PoE.</li>
-</ul>
-</li>
-</ul>
-<h2 id="wireless-ubiquiti">Wireless (Ubiquiti)<a class="headerlink" href="#wireless-ubiquiti" title="Permanent link">⚑</a></h2>
-<ul>
-<li><strong>U7 Pro (Upstairs):</strong> Connected to RB5009.</li>
-<li><strong>U7 Pro (Downstairs):</strong> Connected to RB5009.</li>
-<li><strong>U6 Pro (Garage):</strong> Connected to Garage Switch.</li>
-</ul>
-<hr />
-<h1 id="proposed-upgrade-16gb-internet">Proposed Upgrade: 1.6Gb Internet<a class="headerlink" href="#proposed-upgrade-16gb-internet" title="Permanent link">⚑</a></h1>
-<p>To support the 1.6Gb (2.5Gb ONT) internet upgrade, the network will be restructured to free up the RB5009's single 2.5G RJ45 port for the WAN connection.</p>
-<h2 id="planned-changes">Planned Changes<a class="headerlink" href="#planned-changes" title="Permanent link">⚑</a></h2>
-<ol>
-<li><strong>Add 2<sup>nd</sup> KeepLink (House):</strong> Install under the stairs next to the RB5009.</li>
-<li><strong>10Gb Backbone:</strong> Connect RB5009 SFP+ port to House KeepLink SFP+ port (10Gb link).</li>
-<li><strong>WAN Upgrade:</strong> Move ONT to the RB5009 2.5G port (previously used for garage uplink).</li>
-<li><strong>Garage Uplink:</strong> Move the Garage Cat7 run to a 2.5G port on the House KeepLink.</li>
-</ol>
+<p>The network is built around a high-speed backbone designed to support a 1.6Gbps FTTP connection. A 10Gbps SFP+ link connects the core router to the primary house switch, providing a non-blocking path for all internal and external traffic.</p>
 <pre class="mermaid"><code>graph TD
     ISP((Internet / BT 1.6Gb)) --- ONT[ONT 2.5G]
-    ONT -- "2.5Gb RJ45" --- RB5009[MikroTik RB5009]
+    ONT -- "2.5Gb RJ45" --- RB5009[MikroTik RB5009&lt;br/&gt;Under Stairs]
 
-    RB5009 -- "10Gb SFP+ DAC/Fiber" --- HSW[KeepLink Switch&lt;br/&gt;Under Stairs]
+    RB5009 -- "10Gb SFP+ DAC" --- HSW[KeepLink Switch&lt;br/&gt;Under Stairs]
 
-    subgraph "Main House (2.5G Network)"
-        HSW --- U7PU[Ubiquiti U7 Pro]
-        HSW --- U7PD[Ubiquiti U7 Pro]
-        HSW --- Other[Other 2.5G Devices]
+    subgraph "Main House"
+        HSW --- U7PU[Ubiquiti U7 Pro&lt;br/&gt;Upstairs]
+        RB5009 --- U7PD[Ubiquiti U7 Pro&lt;br/&gt;Downstairs]
+        RB5009 --- SMH[Smart Hub]
     end
 
     HSW -- "2.5Gb RJ45&lt;br/&gt;(Outdoor Cat7 Run)" --- GSW[KeepLink Switch&lt;br/&gt;Garage]
 
-    subgraph "Garage (2.5G Network)"
+    subgraph "Garage"
         GSW --- Plex[Plex Server]
         GSW --- U6PG[Ubiquiti U6 Pro]
     end
@@ -1560,6 +1525,41 @@
     style HSW fill:#f96,stroke:#333,stroke-width:2px
     style GSW fill:#f96,stroke:#333,stroke-width:2px
     style ISP fill:#0cf,stroke:#333,stroke-width:2px</code></pre>
+<h2 id="internet-connection">Internet Connection<a class="headerlink" href="#internet-connection" title="Permanent link">⚑</a></h2>
+<ul>
+<li><strong>Provider:</strong> BT Openreach (FTTP)</li>
+<li><strong>Speed:</strong> 1.6 Gbps Down / 250 Mbps Up</li>
+<li><strong>ONT:</strong> Nokia 2.5G ONT connected to the RB5009's 2.5G port (<code>ether1</code>).</li>
+<li><strong>WAN Protocol:</strong> PPPoE</li>
+</ul>
+<h2 id="core-hardware">Core Hardware<a class="headerlink" href="#core-hardware" title="Permanent link">⚑</a></h2>
+<h3 id="mikrotik-rb5009uprsin">MikroTik RB5009UPr+S+IN<a class="headerlink" href="#mikrotik-rb5009uprsin" title="Permanent link">⚑</a></h3>
+<ul>
+<li><strong>Role:</strong> Core Router / Gateway.</li>
+<li><strong>Location:</strong> Under the stairs.</li>
+<li><strong>WAN Port:</strong> <code>ether1</code> (2.5GbE).</li>
+<li><strong>Backbone:</strong> <code>sfp-sfpplus1</code> (10GbE) connected to the House KeepLink switch.</li>
+<li><strong>Local PoE:</strong> Powers the downstairs AP and Smart Hub directly.</li>
+</ul>
+<h3 id="keeplink-house-switch-kp-9000-9xhpml-x">KeepLink House Switch (KP-9000-9XHPML-X)<a class="headerlink" href="#keeplink-house-switch-kp-9000-9xhpml-x" title="Permanent link">⚑</a></h3>
+<ul>
+<li><strong>Role:</strong> Primary distribution switch for the house.</li>
+<li><strong>Location:</strong> Under the stairs.</li>
+<li><strong>Uplink:</strong> 10Gb SFP+ to RB5009.</li>
+<li><strong>Downlink:</strong> 2.5Gb RJ45 to Garage via external Cat7 run.</li>
+</ul>
+<h3 id="keeplink-garage-switch-kp-9000-9xhpml-x">KeepLink Garage Switch (KP-9000-9XHPML-X)<a class="headerlink" href="#keeplink-garage-switch-kp-9000-9xhpml-x" title="Permanent link">⚑</a></h3>
+<ul>
+<li><strong>Role:</strong> Garage distribution and PoE.</li>
+<li><strong>Location:</strong> Garage.</li>
+<li><strong>Uplink:</strong> 2.5Gb RJ45 from House Switch.</li>
+</ul>
+<h2 id="wireless-ubiquiti">Wireless (Ubiquiti)<a class="headerlink" href="#wireless-ubiquiti" title="Permanent link">⚑</a></h2>
+<ul>
+<li><strong>U7 Pro (Upstairs):</strong> Connected to House Switch (2.5GbE).</li>
+<li><strong>U7 Pro (Downstairs):</strong> Connected to RB5009 (1GbE).</li>
+<li><strong>U6 Pro (Garage):</strong> Connected to Garage Switch (1GbE).</li>
+</ul>
 
 
 
