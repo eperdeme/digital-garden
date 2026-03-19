@@ -15,7 +15,7 @@ graph TD
     RB5009 -- "10Gb SFP+ DAC" --- HSW[KeepLink Switch<br/>Under Stairs]
 
     subgraph "Main House"
-        HSW --- U7PU[Ubiquiti U7 Pro<br/>Upstairs]
+        RB5009 --- U7PU[Ubiquiti U7 Pro<br/>Upstairs]
         RB5009 --- U7PD[Ubiquiti U7 Pro<br/>Downstairs]
         RB5009 --- SMH[Smart Hub]
     end

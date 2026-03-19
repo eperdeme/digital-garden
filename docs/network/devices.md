@@ -5,15 +5,16 @@ description: List of hardware devices on my internal network.
 
 # Network Devices
 
-| Device Name | IP Address | Model | Role | Location | Connection |
-| ----------- | ---------- | ----- | ---- | -------- | ---------- |
-| **Router** | `192.168.1.254` | MikroTik RB5009UPr+S+IN | Gateway / PoE Switch | Stairs | 2.5GbE WAN |
-| **House Switch** | `192.168.1.250` | KeepLink KP-9000-9XHPML-X | 2.5G PoE Switch | Stairs | 10Gb SFP+ (DAC) |
-| **Garage Switch** | `192.168.1.251` | KeepLink KP-9000-9XHPML-X | 2.5G PoE Switch | Garage | 2.5GbE RJ45 |
-| **Plex Server** | `192.168.1.6` | Custom/Server | Media Server | Garage | 1Gb Ethernet |
-| **AP Upstairs** | `192.168.1.x` | Ubiquiti U7 Pro | Access Point | Upstairs | 2.5GbE (PoE+) |
-| **AP Downstairs**| `192.168.1.x` | Ubiquiti U7 Pro | Access Point | Downstairs | 1GbE (PoE+) |
-| **AP Garage** | `192.168.1.x` | Ubiquiti U6 Pro | Access Point | Garage | 1GbE (PoE+) |
+| Device Name | IP Address | MAC Address | Model | Role | Connection |
+| ----------- | ---------- | ----------- | ----- | ---- | ---------- |
+| **Router** | `192.168.1.254` | `18:FD:74:78:4A:D1` | RB5009UPr+S+IN | Gateway / PoE Switch | 2.5GbE WAN (`ether1`) |
+| **House Switch** | `192.168.1.250` | `78:D8:00:32:45:5E` | KP-9000-9XHPML-X | 2.5G PoE Switch | 10Gb SFP+ (`sfp-sfpplus1`) |
+| **Garage Switch**| `192.168.1.251` | `78:D8:00:32:45:5F` | KP-9000-9XHPML-X | 2.5G PoE Switch | 2.5GbE RJ45 (from House SW) |
+| **Plex Server** | `192.168.1.6` | `9A:82:21:67:78:97` | Custom/Server | Media Server | 1Gb Ethernet |
+| AP Upstairs | `192.168.1.10` | `74:40:BE:9B:2C:E8` | Ubiquiti U7 Pro | Access Point | 1GbE PoE (`ether3`) |
+| AP Downstairs| `192.168.1.44` | `04:17:B6:7D:66:51` | Ubiquiti U7 Pro | Access Point | 1GbE PoE (`ether5`) |
+| Smart Hub | `192.168.1.2` | `AC:67:84:92:97:7C` | Smart Hub | Hub | 10/100 PoE (`ether2`) |
+| **AP Garage** | `192.168.1.x` | `x:x:x:x:x:x` | Ubiquiti U6 Pro | Access Point | 1GbE PoE (KeepLink Garage) |
 
 ## Hardware Specifications
 
