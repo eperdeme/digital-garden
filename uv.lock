@@ -218,7 +218,7 @@ requires-dist = [
     { name = "gitdb2", specifier = ">=4.0.2" },
     { name = "pre-commit", specifier = ">=4.5.1" },
     { name = "proselint", specifier = ">=0.16.0" },
-    { name = "zensical", specifier = ">=0.0.27" },
+    { name = "zensical", specifier = ">=0.0.28" },
 ]
 
 [[package]]
