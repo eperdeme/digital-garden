@@ -1333,7 +1333,7 @@
 
   <h1 id="__skip">Commands</h1>
 
-<div class="highlight"><pre><span></span><code>alias kube-vip=&quot;sudo ctr run --rm --net-host ghcr.io/kube-vip/kube-vip:v0.6.0 vip /kube-vip&quot;
+<div class="highlight"><pre><span></span><code>alias kube-vip="sudo ctr run --rm --net-host ghcr.io/kube-vip/kube-vip:v0.6.0 vip /kube-vip"
 kube-vip manifest pod \
     --interface wlan0 \
     --vip 192.168.1.50 \
@@ -1344,11 +1344,11 @@ kube-vip manifest pod \
     --enableLoadBalancer | sudo tee /etc/kubernetes/manifests/kube-vip.yaml
 </code></pre></div>
 <div class="highlight"><pre><span></span><code># Disable swap
-sudo sed -i &#39;s/CONF_SWAPSIZE=100/CONF_SWAPSIZE=0/g&#39; /boot/cmdline.txt
+sudo sed -i 's/CONF_SWAPSIZE=100/CONF_SWAPSIZE=0/g' /boot/cmdline.txt
 
 # enable cgroups memory
 
-sudo sed -i &#39;1s/^/cgroup_enable=memory /&#39; /boot/cmdline.txt
+sudo sed -i '1s/^/cgroup_enable=memory /' /boot/cmdline.txt
 
 # Install container package
 sudo apt-get install -y containerd
@@ -1386,7 +1386,7 @@ sudo mkdir -p /etc/apt/keyrings
 sudo apt-get update
 sudo apt-get install -y apt-transport-https ca-certificates curl
 curl -fsSL https://dl.k8s.io/apt/doc/apt-key.gpg | sudo gpg --dearmor -o /etc/apt/keyrings/kubernetes-archive-keyring.gpg
-echo &quot;deb [signed-by=/etc/apt/keyrings/kubernetes-archive-keyring.gpg] https://apt.kubernetes.io/ kubernetes-xenial main&quot; | sudo tee /etc/apt/sources.list.d/kubernetes.list
+echo "deb [signed-by=/etc/apt/keyrings/kubernetes-archive-keyring.gpg] https://apt.kubernetes.io/ kubernetes-xenial main" | sudo tee /etc/apt/sources.list.d/kubernetes.list
 sudo apt-get update
 sudo apt-get install -y kubelet kubeadm kubectl
 sudo apt-mark hold kubelet kubeadm kubectl
