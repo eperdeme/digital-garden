@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="rss.xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Flynns 2nd Brain</title><description>Personal knowledge base and documentation.</description><link>https://www.eper.net/</link><atom:link href="https://www.eper.net/feed_rss_created.xml" rel="self" type="application/rss+xml" /><managingEditor>nflynn</managingEditor><docs>https://github.com/eperdeme/digital-garden</docs><language>en</language><pubDate>Fri, 25 Sep 2026 11:44:46 +0000</pubDate><lastBuildDate>Fri, 25 Sep 2026 11:44:46 +0000</lastBuildDate><ttl>1440</ttl><generator>Zensical RSS</generator><item><title>Devices</title><description>List of hardware devices on my internal network.</description><link>https://www.eper.net/network/devices/</link><source url="https://www.eper.net/feed_rss_created.xml">Flynns 2nd Brain</source><pubDate>Mon, 16 Mar 2026 22:11:43 +0000</pubDate><guid isPermaLink="true">https://www.eper.net/network/devices/</guid></item><item><title>Network</title><description>Mapping my internal network.</description><link>https://www.eper.net/network/</link><source url="https://www.eper.net/feed_rss_created.xml">Flynns 2nd Brain</source><pubDate>Mon, 16 Mar 2026 22:11:43 +0000</pubDate><guid isPermaLink="true">https://www.eper.net/network/</guid></item><item><title>Topology</title><description>Physical and logical network layout.</description><link>https://www.eper.net/network/topology/</link><source url="https://www.eper.net/feed_rss_created.xml">Flynns 2nd Brain</source><pubDate>Mon, 16 Mar 2026 22:11:43 +0000</pubDate><guid isPermaLink="true">https://www.eper.net/network/topology/</guid></item><item><title>Commands</title><description>&lt;p&gt;```
+alias kube-vip=&quot;sudo ctr run --rm --net-host ghcr.io/kube-vip/kube-vip:v0.6.0 vip /kube-vip&quot;
+kube-vip manifest pod \
+    --interface wlan0 \
+    --vip 19...&lt;/p&gt;</description><link>https://www.eper.net/projects/pi-kube-cluster/commands/</link><source url="https://www.eper.net/feed_rss_created.xml">Flynns 2nd Brain</source><pubDate>Sun, 19 Nov 2023 10:51:24 +0000</pubDate><guid isPermaLink="true">https://www.eper.net/projects/pi-kube-cluster/commands/</guid></item><item><title>Shopping List</title><description>&lt;h1&gt;Shopping List&lt;/h1&gt;
+&lt;h2&gt;2025&lt;/h2&gt;
+&lt;p&gt;| Item | Price | Description |
+|------|--------|-------------|
+| DJI Mini 5 Pro Fly More Combo (with RC 2 controller) | £979 | Dron...&lt;/p&gt;</description><link>https://www.eper.net/shopping/blackfriday/</link><source url="https://www.eper.net/feed_rss_created.xml">Flynns 2nd Brain</source><pubDate>Tue, 19 Oct 2021 09:28:21 +0000</pubDate><guid isPermaLink="true">https://www.eper.net/shopping/blackfriday/</guid></item><item><title>Pinter</title><description>&lt;h2&gt;Pinter 2&lt;/h2&gt;
+&lt;p&gt;TBD&lt;/p&gt;</description><link>https://www.eper.net/brewing/pinter/</link><source url="https://www.eper.net/feed_rss_created.xml">Flynns 2nd Brain</source><pubDate>Wed, 29 Sep 2021 08:54:49 +0000</pubDate><guid isPermaLink="true">https://www.eper.net/brewing/pinter/</guid></item><item><title>Description</title><description>&lt;h1&gt;Description&lt;/h1&gt;
+&lt;h1&gt;Pro/Cons&lt;/h1&gt;
+&lt;p&gt;Sources suggest dead wax worms smell terrible. Live apparently are odorless
+It is also advised the medium used can be smelly&lt;/p&gt;
+&lt;h1&gt;Br...&lt;/h1&gt;</description><link>https://www.eper.net/ants/feeding/waxworms/</link><source url="https://www.eper.net/feed_rss_created.xml">Flynns 2nd Brain</source><pubDate>Tue, 21 Sep 2021 21:42:32 +0000</pubDate><guid isPermaLink="true">https://www.eper.net/ants/feeding/waxworms/</guid></item><item><title>Best Ants Protein Jelly</title><description>&lt;h1&gt;Best Ants Protein Jelly&lt;/h1&gt;
+&lt;h1&gt;Description&lt;/h1&gt;
+&lt;p&gt;Comes in a small tube and easy to squirt out the right amount.
+All my colonies appear to be interested in it and ...&lt;/p&gt;</description><link>https://www.eper.net/ants/feeding/best_ants_protein_jelly/</link><source url="https://www.eper.net/feed_rss_created.xml">Flynns 2nd Brain</source><pubDate>Mon, 20 Sep 2021 20:47:30 +0000</pubDate><guid isPermaLink="true">https://www.eper.net/ants/feeding/best_ants_protein_jelly/</guid></item><item><title>Water</title><description>&lt;h1&gt;Water&lt;/h1&gt;
+&lt;p&gt;Ants need water all the time.  There was some debate by byFormica if ants can locate water in liquid feeders without assistance. They suggest adding...&lt;/p&gt;</description><link>https://www.eper.net/ants/feeding/</link><source url="https://www.eper.net/feed_rss_created.xml">Flynns 2nd Brain</source><pubDate>Sun, 19 Sep 2021 14:08:20 +0000</pubDate><guid isPermaLink="true">https://www.eper.net/ants/feeding/</guid></item><item><title>Camponotus auriventris</title><description>&lt;h2&gt;Environmental&lt;/h2&gt;
+&lt;p&gt;| Area      | Temperature °C | Humidity % |
+| ----------| ------- | --- |
+| Nest  | 24 - 28 | 50 – 70 |
+| Outworld  | 20 - 30 | 40 – 70 |&lt;/p&gt;
+&lt;p&gt;...&lt;/p&gt;</description><link>https://www.eper.net/ants/careguide/camponotus_auriventris/</link><source url="https://www.eper.net/feed_rss_created.xml">Flynns 2nd Brain</source><pubDate>Sun, 19 Sep 2021 12:43:22 +0000</pubDate><guid isPermaLink="true">https://www.eper.net/ants/careguide/camponotus_auriventris/</guid></item><item><title>Camponotus parius</title><description>&lt;h2&gt;Environmental&lt;/h2&gt;
+&lt;p&gt;| Area      | Temperature °C | Humidity % |
+| ----------| ------- | --- |
+| Nest  | 24 - 28 | 50 – 70 |
+| Outworld  | 20 - 30 | 50 – 70 |&lt;/p&gt;
+&lt;p&gt;...&lt;/p&gt;</description><link>https://www.eper.net/ants/careguide/camponotus_parius/</link><source url="https://www.eper.net/feed_rss_created.xml">Flynns 2nd Brain</source><pubDate>Sun, 19 Sep 2021 12:43:22 +0000</pubDate><guid isPermaLink="true">https://www.eper.net/ants/careguide/camponotus_parius/</guid></item><item><title>Lasius niger</title><description>&lt;h2&gt;Environmental&lt;/h2&gt;
+&lt;p&gt;| Area      | Temperature °C | Humidity % |
+| ----------| ------- | --- |
+| Nest  | 20 - 24 | 50 – 60 |
+| Outworld  | 18 - 28 | 30 – 50 |&lt;/p&gt;
+&lt;p&gt;...&lt;/p&gt;</description><link>https://www.eper.net/ants/careguide/lasius_niger/</link><source url="https://www.eper.net/feed_rss_created.xml">Flynns 2nd Brain</source><pubDate>Sun, 19 Sep 2021 12:43:22 +0000</pubDate><guid isPermaLink="true">https://www.eper.net/ants/careguide/lasius_niger/</guid></item><item><title>Messor orientalis</title><description>&lt;h2&gt;Environmental&lt;/h2&gt;
+&lt;p&gt;| Area      | Temperature °C | Humidity % |
+| ----------| ------- | --- |
+| Nest  | 21 - 30 | 30 – 50 |
+| Outworld  | 25 - 30 | 50 – 70 |&lt;/p&gt;
+&lt;p&gt;...&lt;/p&gt;</description><link>https://www.eper.net/ants/careguide/messor_orientalis/</link><source url="https://www.eper.net/feed_rss_created.xml">Flynns 2nd Brain</source><pubDate>Sun, 19 Sep 2021 12:43:22 +0000</pubDate><guid isPermaLink="true">https://www.eper.net/ants/careguide/messor_orientalis/</guid></item><item><title>Ant Colony</title><description>My personal ant colonies.</description><link>https://www.eper.net/ants/</link><source url="https://www.eper.net/feed_rss_created.xml">Flynns 2nd Brain</source><pubDate>Sun, 19 Sep 2021 12:43:22 +0000</pubDate><guid isPermaLink="true">https://www.eper.net/ants/</guid></item><item><title>Ants</title><description>&lt;p&gt;I keep forgetting where to buy ants and setup from, so creating this jot list.&lt;/p&gt;
+&lt;h1&gt;Ants&lt;/h1&gt;
+&lt;p&gt;https://antsdavey.co.uk/&lt;/p&gt;
+&lt;h1&gt;Ant setups&lt;/h1&gt;
+&lt;p&gt;https://www.antboyuk.com/&lt;/p&gt;
+&lt;p&gt;ht...&lt;/p&gt;</description><link>https://www.eper.net/ants/suppliers/</link><source url="https://www.eper.net/feed_rss_created.xml">Flynns 2nd Brain</source><pubDate>Sun, 19 Sep 2021 12:43:22 +0000</pubDate><guid isPermaLink="true">https://www.eper.net/ants/suppliers/</guid></item><item><title>Introduction</title><author>nflynn</author><description>&lt;p&gt;This is my personal digital garden.&lt;/p&gt;
+&lt;p&gt;[&lt;img alt=&quot;CC0&quot; src=&quot;https://img.shields.io/badge/license-CC0-0a0a0a.svg?style=flat&amp;amp;colorA=0a0a0a&quot; /&gt;](https://creativecommons.org/pub...&lt;/p&gt;</description><link>https://www.eper.net/</link><source url="https://www.eper.net/feed_rss_created.xml">Flynns 2nd Brain</source><pubDate>Sun, 19 Sep 2021 12:43:22 +0000</pubDate><guid isPermaLink="true">https://www.eper.net/</guid></item></channel></rss>
