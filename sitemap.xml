@@ -7,12 +7,6 @@
         <loc>https://www.eper.net/ants/</loc>
       </url>
       <url>
-        <loc>https://www.eper.net/ants/feeding/</loc>
-      </url>
-      <url>
-        <loc>https://www.eper.net/ants/suppliers/</loc>
-      </url>
-      <url>
         <loc>https://www.eper.net/ants/careguide/camponotus_auriventris/</loc>
       </url>
       <url>
@@ -25,10 +19,16 @@
         <loc>https://www.eper.net/ants/careguide/messor_orientalis/</loc>
       </url>
       <url>
+        <loc>https://www.eper.net/ants/feeding/</loc>
+      </url>
+      <url>
         <loc>https://www.eper.net/ants/feeding/best_ants_protein_jelly/</loc>
       </url>
       <url>
         <loc>https://www.eper.net/ants/feeding/waxworms/</loc>
+      </url>
+      <url>
+        <loc>https://www.eper.net/ants/suppliers/</loc>
       </url>
       <url>
         <loc>https://www.eper.net/brewing/pinter/</loc>
